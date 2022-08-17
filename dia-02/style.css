@@ -1,0 +1,52 @@
+:root {
+  --backgroud: #2e2d2d;
+  --green-500: #62aba1;
+  --green-600: #1d887a;
+  --gray-400: #626262;
+}
+
+* {
+  border: 0;
+  box-sizing: border-box;
+  font-family: 'Fira Code', monospace;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  align-items: center;
+  background-color: var(--backgroud);
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+h1 {
+  animation: typing 3.5s steps(40, end),
+  blink-caret .75s step-end infinite;
+  border-right: .15em solid var(--green-600);
+  color: var(--gray-400);
+  letter-spacing: 2px;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 300px;
+}
+
+span {
+  color: var(--green-600);
+  letter-spacing: 0;
+  text-shadow: 0px 0px 10px var(--green-600);
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent;}
+  50% { border-color: var(--green-600);}
+}
