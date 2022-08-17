@@ -1,2 +1,4 @@
-# 21-dias-de-codigo-rocketseat
-Repositório criado para o desafio de 21 dias de código com a Rocketseat
+# 21 dias de código com a Rockeseat
+
+- [x] Dia 01: Criando o repositório
+- [ ] Dia 02: ...
