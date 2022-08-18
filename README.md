@@ -8,5 +8,5 @@
 ## Dia 02: "Hello World" com efeito de digitação
 
 <p align="center">
-  <a><img src="./ida-02/animacao.gif" alt="Texto 'Hello World' sendo exibido com um efeito de digitação" title="Texto 'Hello World' sendo exibido com um efeito de digitação"></a>
+  <a><img src="./dia-02/animacao.gif" alt="Texto 'Hello World' sendo exibido com um efeito de digitação" title="Texto 'Hello World' sendo exibido com um efeito de digitação"></a>
 </p>
