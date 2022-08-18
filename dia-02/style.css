@@ -27,7 +27,7 @@ body {
 h1 {
   animation: typing 3.5s steps(40, end),
   blink-caret .75s step-end infinite;
-  border-right: .15em solid var(--green-600);
+  border-right: 4px solid var(--green-600);
   color: var(--gray-400);
   letter-spacing: 2px;
   white-space: nowrap;
