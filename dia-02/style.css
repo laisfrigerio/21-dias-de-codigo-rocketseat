@@ -26,13 +26,13 @@ body {
 
 h1 {
   animation: typing 3.5s steps(40, end),
-  blink-caret .75s step-end infinite;
+             blink-caret .75s step-end infinite;
   border-right: 4px solid var(--green-600);
   color: var(--gray-400);
   letter-spacing: 2px;
   white-space: nowrap;
   overflow: hidden;
-  max-width: 300px;
+  max-width: 295px;
 }
 
 span {
@@ -42,11 +42,21 @@ span {
 }
 
 @keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
+  from {
+    width: 0; 
+  }
+
+  to {
+    width: 100%;
+  }
 }
 
 @keyframes blink-caret {
-  from, to { border-color: transparent;}
-  50% { border-color: var(--green-600);}
+  from, to { 
+    border-color: transparent;
+  }
+
+  50% {
+    border-color: var(--green-600);
+  }
 }
