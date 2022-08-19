@@ -1,0 +1,61 @@
+:root {
+  --backgroud: #2e2d2d;
+  --green-500: #122523;
+  --green-600: #1d887a;
+  --gray-400: #626262;
+  --white: #ffffff;
+}
+
+* {
+  border: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  align-items: center;
+  background-color: var(--backgroud);
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+button {
+  animation: play 1.5s ease infinite;
+  align-items: center;
+  background-color: var(--green-600);
+  border-radius: 50%;
+  display: flex;
+  height: 50px;
+  padding: 4px 8px;
+  width: 50px;
+}
+
+svg path {
+  fill: var(--white);
+}
+
+@keyframes play {
+  15% {
+    box-shadow: 0 0 0 5px rgba(95, 95, 95, 0.2);
+  }
+
+  30% {
+    transform: scale(1.2);
+  }
+
+  50% {
+    box-shadow:
+      0 0 0 5px rgba(255, 255, 255, 0.2),
+      0 0 0 10px rgba(95, 95, 95, 0.2),
+      0 0 0 15px rgba(95, 95, 95, 0.2);
+  }
+
+  80% {
+    transform: scale(1);
+  }
+}
