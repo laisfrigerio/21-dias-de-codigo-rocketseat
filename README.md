@@ -3,6 +3,7 @@
 - [x] Dia 01: Criando o repositório
 - [x] Dia 02: Famoso "Hello World" com HTML e CSS
 - [x] Dia 03: Botão Animado - Efeito Pulso
+- [ ] Dia 04: ...
 
 
 ## Dia 02: "Hello World" com efeito de digitação
