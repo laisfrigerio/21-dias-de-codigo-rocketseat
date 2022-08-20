@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <section class="wrapper">
+    <form action="#" name="Calculator" class="calculator">
+      <input disabled name="visor" type="text" class="visor"></div>
+      <div class="line line-2">
+        <input type="button" name="number7" onClick="display(number7.value)" class="number" value="7" />
+        <input type="button" name="number8" onClick="display(number8.value)" class="number" value="8" />
+        <input type="button" name="number9" onClick="display(number9.value)" class="number" value="9" />
+        <input type="button" name="operatorDiv" onClick="display(operatorDiv.value)" class="operator" value="/" />
+      </div>
+      <div class="line line-3">
+        <input type="button" name="number4" onClick="display(number4.value)" class="number" value="4" />
+        <input type="button" name="number5" onClick="display(number5.value)" class="number" value="5" />
+        <input type="button" name="number6" onClick="display(number6.value)" class="number" value="6" />
+        <input type="button" name="operatorMulti" onClick="display(operatorMulti.value)" class="operator" value="*" />
+      </div>
+      <div class="line line-4">
+        <input type="button" name="number1" onClick="display(number1.value)" class="number" value="1" />
+        <input type="button" name="number2" onClick="display(number2.value)" class="number" value="2" />
+        <input type="button" name="number3" onClick="display(number3.value)" class="number" value="3" />
+        <input type="button" name="operatorMinus" onClick="display(operatorMinus.value)" class="operator" value="-" />
+      </div>
+      <div class="line line-5">
+        <input type="reset" name="clear" class="operator" value="C" />
+        <input type="button" name="number0" onClick="display(number0.value)" class="number" value="0" />
+        <input type="button" name="calc" onClick="evaluateExpression()" class="operator" value="=" />
+        <input type="button" name="operatorAdd" onClick="display(operatorAdd.value)" class="operator" value="+" />
+      </div>
+      </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
