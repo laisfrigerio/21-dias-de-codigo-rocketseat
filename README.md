@@ -1,4 +1,4 @@
-# 21 dias de código com a Rockeseat 🚀
+# 21 dias de código com a Rocketseat 🚀
 
 - [x] Dia 01: Criando o repositório
 - [x] Dia 02: Famoso "Hello World" com HTML e CSS
