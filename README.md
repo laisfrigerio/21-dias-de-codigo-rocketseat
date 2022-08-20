@@ -24,5 +24,5 @@ Inspirada no efeito de pulso da logo do Skype, eu criei uma versão utilizando a
 ## Dia 04: Calculadora
 
 <p align="center">
-  <a><img src="./dia-04/calculadora.png" alt="Calculadora" title="Calculadora"></a>
+  <a><img src="./dia-04/screenshot-calculadora.png" alt="Calculadora" title="Calculadora"></a>
 </p>
