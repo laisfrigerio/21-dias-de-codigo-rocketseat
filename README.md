@@ -3,7 +3,8 @@
 - [x] Dia 01: Criando o repositório
 - [x] Dia 02: Famoso "Hello World" com HTML e CSS
 - [x] Dia 03: Botão Animado - Efeito Pulso
-- [ ] Dia 04: ...
+- [x] Dia 04: Calculadora
+- [ ] Dia 05: ...
 
 
 ## Dia 02: "Hello World" com efeito de digitação
@@ -18,4 +19,10 @@ Inspirada no efeito de pulso da logo do Skype, eu criei uma versão utilizando a
 
 <p align="center">
   <a><img src="./dia-03/efeito-pulso.png" alt="Efeito pulso" title="Efeito pulso"></a>
+</p>
+
+## Dia 04: Calculadora
+
+<p align="center">
+  <a><img src="./dia-04/calculadora.png" alt="Calculadora" title="Calculadora"></a>
 </p>
