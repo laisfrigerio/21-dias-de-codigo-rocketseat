@@ -1,0 +1,135 @@
+:root {
+  --backgroud: #2e2d2d;
+  --green-500: #62aba1;
+  --green-600: #1d887a;
+  --gray-400: #626262;
+  --gray-600: #474747;
+  --white: #ffffff;
+}
+
+* {
+  border: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  align-items: center;
+  background-color: var(--backgroud);
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+h1 {
+  color: var(--gray-400);
+  font-size: 16px;
+  margin-top: -30px;
+}
+
+.error-404 {
+  align-items: center;
+  display: flex;
+  gap: 8px;
+}
+
+.error-404 > div {
+  color: var(--gray-400);
+  font-size: 250px;
+  text-shadow: 5px 5px 1px var(--gray-600);
+}
+
+.error-404 > div:first-child {
+  margin-right: 6px;
+  transform: rotate(-15deg);
+}
+
+.error-404 > div:last-child {
+  margin-left: 6px;
+  transform: rotate(15deg);
+}
+
+.face {
+  animation: jump 1.5s ease infinite;
+  background-color: var(--green-500);
+  border-radius: 50%;
+  box-shadow: 3px 2px 1px 4px var(--green-600);
+  display: flex;
+  gap: 16px;
+  height: 140px;
+  justify-content: center;
+  position: relative;
+  width: 140px;
+}
+
+.face:before {
+  background-color: var(--backgroud);
+  border-radius: 50%;
+  bottom: 12px;
+  content: "";
+  height: 50px;
+  position: absolute;
+  width: 40px;
+}
+
+.eye {
+  background-color: var(--white);
+  border: 2px solid var(--backgroud);
+  border-radius: 50%;
+  height: 25px;
+  margin-top: 40px;
+  position: relative;
+  width: 20px;
+}
+
+.eye:before,
+.eye:after {
+  background-color: var(--backgroud);
+  border-radius: 50%;
+  bottom: 4px;
+  content: "";
+  height: 12px;
+  left: 4px;
+  position: absolute;
+  width: 8px;
+}
+
+.pupil {
+  background-color: var(--white);
+  border-radius: 50%;
+  height: 4px;
+  left: 4px;
+  position: absolute;
+  top: 5px;
+  width: 4px;
+  z-index: 2;
+}
+
+.eyebrow {
+  background-color: var(--backgroud);
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  height: 8px;
+  position: absolute;
+  top: -17px;
+  width: 16px;
+}
+
+@keyframes jump {
+  25% {
+    margin-top: 10px;
+  }
+
+  50% {
+    margin-top: 20px;
+  }
+
+  75% {
+    margin-top: 10px;
+  }
+}

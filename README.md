@@ -4,7 +4,8 @@
 - [x] Dia 02: Famoso "Hello World" com HTML e CSS
 - [x] Dia 03: Botão Animado - Efeito Pulso
 - [x] Dia 04: Calculadora
-- [ ] Dia 05: ...
+- [x] Dia 05: Página de erro 404
+- [ ] Dia 06: ...
 
 
 ## Dia 02: "Hello World" com efeito de digitação
@@ -25,4 +26,10 @@ Inspirada no efeito de pulso da logo do Skype, eu criei uma versão utilizando a
 
 <p align="center">
   <a><img src="./dia-04/screenshot-calculadora.png" alt="Calculadora" title="Calculadora"></a>
+</p>
+
+## Dia 05: Página de erro 404
+
+<p align="center">
+  <a><img src="./dia-5/screensho.png" alt="Página de erro 404" title="Página de erro 404"></a>
 </p>
