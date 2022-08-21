@@ -31,5 +31,5 @@ Inspirada no efeito de pulso da logo do Skype, eu criei uma versão utilizando a
 ## Dia 05: Página de erro 404
 
 <p align="center">
-  <a><img src="./dia-5/screenshot.png" alt="Página de erro 404" title="Página de erro 404"></a>
+  <a><img src="./dia-05/screenshot.png" alt="Página de erro 404" title="Página de erro 404"></a>
 </p>
