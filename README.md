@@ -5,7 +5,8 @@
 - [x] Dia 03: Botão Animado - Efeito Pulso
 - [x] Dia 04: Calculadora
 - [x] Dia 05: Página de erro 404
-- [ ] Dia 06: ...
+- [x] Dia 06: Efeito Glassmorphism
+- [ ] Dia 07: ...
 
 
 ## Dia 02: "Hello World" com efeito de digitação
@@ -32,4 +33,10 @@ Inspirada no efeito de pulso da logo do Skype, eu criei uma versão utilizando a
 
 <p align="center">
   <a><img src="./dia-05/screenshot.png" alt="Página de erro 404" title="Página de erro 404"></a>
+</p>
+
+## Dia 06: Efeito Glassmorphism
+
+<p align="center">
+  <a><img src="./dia-06/screenshot.png" alt="Card com efeito Glassmorphism" title="Card com efeito Glassmorphism"></a>
 </p>
