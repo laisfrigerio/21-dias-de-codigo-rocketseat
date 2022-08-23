@@ -1,0 +1,145 @@
+:root {
+  --backgroud: #2e2d2d;
+  --green-600: #1d887a;
+  --white: #ffffff;
+}
+
+* {
+  border: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  align-items: center;
+  background-color: var(--backgroud);
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.section {
+  height: 350px;
+  max-width: 500px;
+  position: relative;
+  width: 400px;
+}
+
+.section:before,
+.section:after {
+  background: linear-gradient(45deg,
+   rgba(46,45,45,1) 0%, 
+   rgba(29,136,122,1) 100%);
+  border-radius: 50%;
+  content: "";
+  position: absolute;
+  z-index: -1;
+}
+
+.section:before {
+  height: 250px;
+  right: -50px;
+  top: -50px;
+  width: 250px;
+}
+
+.section:after {
+  bottom: -50px;
+  height: 150px;
+  left: -50px;
+  width: 150px;
+}
+
+.card {
+  align-items: center;
+  backdrop-filter: blur(15px);
+  background-color: rgba(255, 255, 255, .20);
+  border: 1px solid rgba(255, 255, 255, .25);
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, .25);
+  display: flex;
+  height: inherit;
+  flex-direction: column;
+  justify-content: center;
+  padding: 24px;
+  width: inherit;
+  z-index: 10;
+}
+
+h1 {
+  color: var(--white);
+  font-size: 32px;
+  margin-top: 16px;
+}
+
+h2 {
+  color: var(--white);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  margin: 8px 0;
+  text-align: center;
+}
+
+img {
+  height: 100px;
+}
+
+.coutdown {
+  display: flex;
+  color: var(--white);
+  gap: 8px;
+  margin: 10px 0 12px;
+  position: relative;
+}
+
+.days:after,
+.hours:after,
+.minutes:after {
+  content: ":";
+  font-weight: bold;
+  margin-left: 59px;
+  position: absolute;
+}
+
+.days:before,
+.hours:before,
+.minutes:before,
+.seconds:before {
+  bottom: -17px;
+  font-size: 11px;
+  font-weight: 400;
+  position: absolute;
+}
+
+.days:before {
+  content: "d";
+}
+
+.hours:before {
+  content: "h";
+}
+
+.minutes:before {
+  content: "m";
+}
+
+.seconds:before {
+  content: "s";
+}
+
+.counter {
+  align-items: center;
+  backdrop-filter: blur(15px);
+  box-shadow: 0 0 10px 1px rgb(0 0 0 / 8%);
+  border-radius: 50%;
+  display: flex;
+  font-weight: bold;
+  height: 50px;
+  justify-content: center;
+  width: 50px;
+}
