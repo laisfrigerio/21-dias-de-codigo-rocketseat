@@ -36,6 +36,12 @@ Inspirada no efeito de pulso da logo do Skype, eu criei uma versão utilizando a
   <a><img src="./dia-05/screenshot.png" alt="Página de erro 404" title="Página de erro 404"></a>
 </p>
 
+## Dia 06: Efeito Glassmorphism
+
+<p align="center">
+  <a><img src="./dia-06/screenshot.png" alt="Card com efeito Glassmorphism" title="Card com efeito Glassmorphism"></a>
+</p>
+
 ## Dia 07: Contador regressivo em Javascript
 
 <p align="center">
