@@ -1,0 +1,66 @@
+:root {
+  --backgroud: #2e2d2d;
+  --green-500: #62aba1;
+  --green-600: #1d887a;
+  --gray-400: #626262;
+  --gray-600: #474747;
+}
+
+* {
+  border: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  align-items: center;
+  background-color: var(--backgroud);
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.loading {
+  display: flex;
+  gap: 16px;
+}
+
+.ball {
+  animation: 2s bounce ease infinite;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+}
+
+.gray-light {
+  background-color: var(--gray-400);
+}
+
+.green-light {
+  background-color: var(--green-500);
+  animation-delay: 0.25s;
+}
+
+.green-dark {
+  background-color: var(--green-600);
+  animation-delay: 0.5s;
+}
+
+.gray-dark {
+  background-color: var(--gray-600);
+  animation-delay: 0.75s;
+}
+
+@keyframes bounce {
+  50% {
+    transform: translateY(25px);
+  }
+}
