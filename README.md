@@ -7,7 +7,8 @@
 - [x] Dia 05: Página de erro 404
 - [x] Dia 06: Efeito Glassmorphism
 - [x] Dia 07: Contador regressivo em Javascript
-- [ ] Dia 08: ...
+- [x] Dia 08: Toggle que altera o tema de uma página entre Light e Dark mode
+- [ ] Dia 09: ...
 
 
 ## Dia 02: "Hello World" com efeito de digitação
@@ -46,4 +47,14 @@ Inspirada no efeito de pulso da logo do Skype, eu criei uma versão utilizando a
 
 <p align="center">
   <a><img src="./dia-07/screenshot.png" alt="Card com efeito Glassmorphism junto com um contador regressivo" title="Card com efeito Glassmorphism junto com um contador regressivo"></a>
+</p>
+
+## Dia 08: Toggle que altera o tema de uma página entre Light e Dark mode
+
+<p align="center">
+  <a><img src="./dia-08/theme-dark.png" alt="Card com efeito Glassmorphism em Dark Mode" title="Card com efeito Glassmorphism em Dark Mode"></a>
+</p>
+
+<p align="center">
+  <a><img src="./dia-08/theme-light.png" alt="Card com efeito Glassmorphism em Light Mode" title="Card com efeito Glassmorphism em Light Mode"></a>
 </p>
