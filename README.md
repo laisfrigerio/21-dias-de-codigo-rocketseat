@@ -9,7 +9,8 @@
 - [x] Dia 07: Contador regressivo em Javascript
 - [x] Dia 08: Toggle que altera o tema de uma página entre Light e Dark mode
 - [x] Dia 09: Loading
-- [ ] Dia 10: ...
+- [x] Dia 10: Uso da biblioteca Particle.js
+- [ ] Dia 11: ...
 
 
 ## Dia 02: "Hello World" com efeito de digitação
@@ -64,4 +65,9 @@ Inspirada no efeito de pulso da logo do Skype, eu criei uma versão utilizando a
 
 <p align="center">
   <a><img src="./dia-09/loading.gif" alt="Loading: 4 bolinhas pulando em tempos diferentes" title="Loading: 4 bolinhas pulando em tempos diferentes"></a>
+</p>
+
+## Dia 10: Uso da biblioteca Particle.js
+<p align="center">
+  <a><img src="./dia-10/dia-10-resultado-final.gif" alt="Profile card com efeito Glassmorphism, tema escuro e com efeito de particulas ao fundo em verde se movendo" title="Profile card com efeito Glassmorphism, tema escuro e com efeito de particulas ao fundo em verde se movendo"></a>
 </p>
