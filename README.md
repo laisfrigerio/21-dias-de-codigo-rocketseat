@@ -10,7 +10,8 @@
 - [x] Dia 08: Toggle que altera o tema de uma página entre Light e Dark mode
 - [x] Dia 09: Loading
 - [x] Dia 10: Uso da biblioteca Particle.js
-- [ ] Dia 11: ...
+- [x] Dia 11: Tela de Login
+- [ ] Dia 12: ...
 
 
 ## Dia 02: "Hello World" com efeito de digitação
@@ -68,6 +69,13 @@ Inspirada no efeito de pulso da logo do Skype, eu criei uma versão utilizando a
 </p>
 
 ## Dia 10: Uso da biblioteca Particle.js
+
 <p align="center">
   <a><img src="./dia-10/dia-10-resultado-final.gif" alt="Profile card com efeito Glassmorphism, tema escuro e com efeito de particulas ao fundo em verde se movendo" title="Profile card com efeito Glassmorphism, tema escuro e com efeito de particulas ao fundo em verde se movendo"></a>
+</p>
+
+## Dia 11: Tela de Login
+
+<p align="center">
+  <a><img src="./dia-11/dia-11-resultado-final-light.png" alt="Tela de login com efeito Glassmorphism, tema escuro e com efeito de particulas ao fundo em verde se movendo" title="Tela de login com efeito Glassmorphism, tema escuro e com efeito de particulas ao fundo em verde se movendo"></a>
 </p>
