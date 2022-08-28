@@ -46,7 +46,4 @@ function countDown() {
   setCountDown('seconds', diffSecond(diff))
 }
 
-window.onload = function () {
-  initTheme()
-  setInterval(countDown, 1000)
-}
+window.onload = setInterval(countDown, 1000)
