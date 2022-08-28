@@ -1,6 +1,6 @@
 :root {
   --backgroud: #2e2d2d;
-  --green-600: #1d887a;
+  --green-500: #1d887a;
   --gray-400: #626262;
   --gray-600: #474747;
   --white: #ffffff;
@@ -58,7 +58,7 @@ body {
 }
 
 .operator {
-  background-color: var(--green-600);
+  background-color: var(--green-500);
   font-weight: bold;
 }
 

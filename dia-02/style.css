@@ -1,7 +1,6 @@
 :root {
   --backgroud: #2e2d2d;
-  --green-500: #62aba1;
-  --green-600: #1d887a;
+  --green-500: #1d887a;
   --gray-400: #626262;
 }
 
@@ -27,7 +26,7 @@ body {
 h1 {
   animation: typing 3.5s steps(40, end),
              blink-caret .75s step-end infinite;
-  border-right: 4px solid var(--green-600);
+  border-right: 4px solid var(--green-500);
   color: var(--gray-400);
   letter-spacing: 2px;
   white-space: nowrap;
@@ -36,9 +35,9 @@ h1 {
 }
 
 span {
-  color: var(--green-600);
+  color: var(--green-500);
   letter-spacing: 0;
-  text-shadow: 0px 0px 10px var(--green-600);
+  text-shadow: 0px 0px 10px var(--green-500);
 }
 
 @keyframes typing {
@@ -57,6 +56,6 @@ span {
   }
 
   50% {
-    border-color: var(--green-600);
+    border-color: var(--green-500);
   }
 }
