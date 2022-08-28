@@ -8,6 +8,10 @@
   --gray-600: #474747;
 }
 
+a {
+  text-decoration: none;
+}
+
 * {
   border: 0;
   box-sizing: border-box;
