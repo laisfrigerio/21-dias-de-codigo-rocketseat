@@ -5,6 +5,8 @@
   --social-network-icon: var(--green-500);
   --bubble-gray: rgba(221,221,221,1);
   --theme-switch-shadow: #b7b7b7;
+  --form-input-border-color: #299384;
+  --form-input-box-shadow: #6cc5b9;
 }
 
 .theme-dark {
@@ -14,6 +16,8 @@
   --social-network-icon: var(--white);
   --bubble-gray: rgba(46,45,45,1);
   --theme-switch-shadow: #575757;
+  --form-input-border-color: #fff;
+  --form-input-box-shadow: #fff;
 }
 
 .theme-mode {
