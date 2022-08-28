@@ -1,30 +1,3 @@
-:root {
-  --white: #ffffff;
-  --green: #1d887a;
-  --gray-500: #545454;
-}
-
-.theme-dark {
-  --avatar-border: var(--white);
-  --background: #2e2d2d;
-  --text-color: var(--white);
-  --social-network-icon: var(--white);
-  --bubble-gray: rgba(46,45,45,1);
-  --theme-switch-shadow: #575757;
-}
-
-* {
-  border: 0;
-  box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
-  margin: 0;
-  padding: 0;
-}
-
-ul {
-  list-style: none;
-}
-
 body {
   background-color: var(--background);
 }
@@ -48,12 +21,12 @@ body {
 }
 
 .gallery .card-img:hover img {
-  border: 10px solid var(--green);
+  border: 10px solid var(--green-500);
   transform: scale(1.1);
 }
 
 .gallery .card-img:hover .legend {
-  color: var(--green);
+  color: var(--green-500);
   margin-top: 20px;
 }
 
@@ -114,9 +87,4 @@ body {
 .modal-open .modal {
   opacity: 1;
   visibility: visible;
-}
-
-canvas {
-  position: absolute;
-  z-index: -4;
 }

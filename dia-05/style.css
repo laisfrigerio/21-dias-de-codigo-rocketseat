@@ -1,31 +1,3 @@
-:root {
-  --backgroud: #2e2d2d;
-  --green-400: #62aba1;
-  --green-500: #1d887a;
-  --gray-400: #626262;
-  --gray-600: #474747;
-  --white: #ffffff;
-}
-
-* {
-  border: 0;
-  box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  align-items: center;
-  background-color: var(--backgroud);
-  display: flex;
-  justify-content: center;
-  height: 100vh;
-  overflow: hidden;
-  position: relative;
-  width: 100%;
-}
-
 h1 {
   color: var(--gray-400);
   font-size: 16px;
@@ -68,7 +40,7 @@ h1 {
 }
 
 .face:before {
-  background-color: var(--backgroud);
+  background-color: var(--background);
   border-radius: 50%;
   bottom: 12px;
   content: "";
@@ -79,7 +51,7 @@ h1 {
 
 .eye {
   background-color: var(--white);
-  border: 2px solid var(--backgroud);
+  border: 2px solid var(--background);
   border-radius: 50%;
   height: 25px;
   margin-top: 40px;
@@ -89,7 +61,7 @@ h1 {
 
 .eye:before,
 .eye:after {
-  background-color: var(--backgroud);
+  background-color: var(--background);
   border-radius: 50%;
   bottom: 4px;
   content: "";
@@ -111,7 +83,7 @@ h1 {
 }
 
 .eyebrow {
-  background-color: var(--backgroud);
+  background-color: var(--background);
   border-top-left-radius: 6px;
   border-top-right-radius: 6px;
   height: 8px;

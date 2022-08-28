@@ -1,5 +1,6 @@
 const themeDark = 'theme-dark'
 const themeLight = 'theme-light'
+const slider = document.getElementById('slider')
 
 function getTheme() {
   const theme = localStorage.getItem('theme')
@@ -12,8 +13,10 @@ function getTheme() {
 }
 
 function setSlider(themeMode) {
-  const checked = themeMode === themeDark ? false : true
-  document.getElementById('slider').checked = checked
+  if (slider) {
+    const checked = themeMode === themeDark ? false : true
+    slider.checked = checked
+  }
 }
 
 function setTheme(themeMode) {

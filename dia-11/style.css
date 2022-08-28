@@ -1,31 +1,5 @@
 :root {
-  --white: #ffffff;
   --green-400: #299384;
-  --green-500: #1d887a;
-  --gray-500: #545454;
-}
-
-* {
-  border: 0;
-  box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
-  margin: 0;
-  padding: 0;
-}
-
-ul {
-  list-style: none;
-}
-
-body {
-  align-items: center;
-  background-color: var(--background);
-  display: flex;
-  justify-content: center;
-  height: 100vh;
-  overflow: hidden;
-  position: relative;
-  width: 100%;
 }
 
 .glassmorphism-card {
