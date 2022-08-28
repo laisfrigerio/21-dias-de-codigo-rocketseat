@@ -31,3 +31,9 @@ function toggleTheme() {
 
   setTheme(themeDark)
 }
+
+function initTheme() {
+  const theme = getTheme()
+  setTheme(theme)
+  setSlider(theme)
+}
