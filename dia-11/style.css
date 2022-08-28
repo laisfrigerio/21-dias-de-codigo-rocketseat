@@ -143,7 +143,7 @@ h2 {
 }
 
 .theme-mode .slider:before {
-  background: var(--white) url('/dia-11/images/moon.png') no-repeat center;
+  background: var(--white) url('images/moon.png') no-repeat center;
   border-radius: 50%;
   box-shadow: 0 0px 15px var(--theme-switch-shadow);
   content: "";
@@ -160,7 +160,7 @@ h2 {
 }
 
 .theme-mode input:checked + .slider:before {
-  background: var(--white) url('/dia-11/images/sunny.png') no-repeat center;
+  background: var(--white) url('images/sunny.png') no-repeat center;
   -webkit-transform: translateX(34px);
   -ms-transform: translateX(34px);
   transform: translateX(34px);

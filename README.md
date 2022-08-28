@@ -11,7 +11,8 @@
 - [x] Dia 09: Loading
 - [x] Dia 10: Uso da biblioteca Particle.js
 - [x] Dia 11: Tela de Login
-- [ ] Dia 12: ...
+- [x] Dia 12: Galeria
+- [ ] Dia 13: ...
 
 
 ## Dia 02: "Hello World" com efeito de digitação
@@ -78,4 +79,10 @@ Inspirada no efeito de pulso da logo do Skype, eu criei uma versão utilizando a
 
 <p align="center">
   <a><img src="./dia-11/dia-11-resultado-final-light.png" alt="Tela de login com efeito Glassmorphism, tema escuro e com efeito de particulas ao fundo em verde se movendo" title="Tela de login com efeito Glassmorphism, tema escuro e com efeito de particulas ao fundo em verde se movendo"></a>
+</p>
+
+## Dia 12: Galaeria de imagens
+
+<p align="center">
+  <a><img src="./dia-12/screenshot.png" alt="Galeria de imagens" title="aleria de imagens"></a>
 </p>
