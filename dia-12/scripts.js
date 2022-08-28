@@ -4,7 +4,7 @@ const modalImg = modal.querySelector('img')
 const cardImg = document.querySelectorAll('.card-img')
 const closeModal = modal.querySelector('.close-btn')
 
-cardImg.forEach((item, index) => {
+cardImg.forEach((item, _) => {
   item.addEventListener('click', () => {
     const img = item.querySelector('img')
     const imgSrc = img.getAttribute('src')
