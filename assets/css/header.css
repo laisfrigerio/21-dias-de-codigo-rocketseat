@@ -1,0 +1,30 @@
+header {
+  background-color: var(--background);
+  height: 60px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+header ul {
+  display: flex;
+  justify-content: center;
+  height: inherit;
+  margin: 0 auto;
+  max-width: 992px;
+}
+
+header li {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+header a {
+  color: var(--green-500);
+  transition: font-weight 0.6s ease-in-out;
+}
+
+header a:hover {
+  font-weight: bold;
+}
