@@ -5,3 +5,7 @@ function display(value) {
 function evaluateExpression() {
   Calculator.visor.value = eval(Calculator.visor.value)
 }
+
+window.onload = function () {
+  includeFile()
+}

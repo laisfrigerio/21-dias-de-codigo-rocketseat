@@ -46,4 +46,7 @@ function countDown() {
   setCountDown('seconds', diffSecond(diff))
 }
 
-window.onload = setInterval(countDown, 1000)
+window.onload = function () {
+  setInterval(countDown, 1000)
+  includeFile()
+}

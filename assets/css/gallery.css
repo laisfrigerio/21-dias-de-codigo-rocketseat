@@ -7,7 +7,7 @@ body {
   flex-wrap: wrap;
   gap: 16px;
   justify-content: center;
-  margin: 72px auto 32px;
+  margin: 112px auto 32px;
   max-width: 992px;
 }
 
@@ -31,7 +31,7 @@ body {
 }
 
 .gallery img {
-  border: 10px solid #3b3b3b;
+  border: 10px solid var(--gray-700);
   box-shadow: 1px 1px 8px 1px #232323;
   height: 280px;
   object-fit: cover;
@@ -40,7 +40,7 @@ body {
 }
 
 .gallery .legend {
-  color: #878787;
+  color: var(--gray-350);
   margin-top: 8px;
   text-align: center;
 }
@@ -67,7 +67,7 @@ body {
 }
 
 .modal .modal-content img {
-  border: 10px solid #3b3b3b;
+  border: 10px solid var(--gray-700);
   height: auto;
   width: 80%;
 }

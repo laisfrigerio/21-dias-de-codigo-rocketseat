@@ -20,4 +20,5 @@ closeModal.addEventListener('click', () => {
 
 window.onload = function () {
   initParticleJs()
+  includeFile()
 }

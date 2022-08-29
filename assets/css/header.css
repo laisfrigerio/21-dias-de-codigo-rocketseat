@@ -1,17 +1,26 @@
 header {
   background-color: var(--background);
+  border-bottom: 1px solid var(--header-border);
   height: 60px;
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 100;
+}
+
+header > div {
+  display: flex;
+  height: inherit;
+  justify-content: space-around;
+  margin: 0 auto;
+  max-width: 992px;
 }
 
 header ul {
   display: flex;
+  gap: 16px;
   justify-content: center;
   height: inherit;
-  margin: 0 auto;
-  max-width: 992px;
 }
 
 header li {
@@ -21,10 +30,38 @@ header li {
 }
 
 header a {
-  color: var(--green-500);
-  transition: font-weight 0.6s ease-in-out;
+  align-items: center;
+  color: var(--gray-350);
+  display: flex;
+  font-size: 16px;
+  gap: 8px;
+  height: 100%;
+  text-align: center;
+  transition: color 0.6s ease-in-out;
+}
+
+header a svg path {
+  fill: var(--gray-350);
+  transition: fill 0.6s ease-in-out;
 }
 
 header a:hover {
-  font-weight: bold;
+  color: var(--green-500);
+}
+
+header a:hover svg path {
+  fill: var(--green-500);
+}
+
+header svg {
+  height: 20px;
+  width: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  header > div {
+    justify-content: start;
+    padding-left: 42px;
+    gap: 16px;
+  }
 }
