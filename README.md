@@ -12,7 +12,8 @@
 - [x] Dia 10: Uso da biblioteca Particle.js
 - [x] Dia 11: Tela de Login
 - [x] Dia 12: Galeria
-- [ ] Dia 13: ...
+- [x] Dia 13: Menu responsivo
+- [ ] Dia 14: ...
 
 
 ## Dia 02: "Hello World" com efeito de digitação
@@ -97,4 +98,14 @@ Inspirada no efeito de pulso da logo do Skype, eu criei uma versão utilizando a
 
 <p align="center">
   <a><img src="./dia-12/screenshot.png" alt="Galeria de imagens" title="aleria de imagens"></a>
+</p>
+
+## Dia 13: Menu responsivo
+
+<p align="center">
+  <a><img src="./dia-13/dia-13-screenshot-mobile.png" alt="Tela principal com uma lista de imagens e ao topo um menu responsivo versão mobile" title="Tela principal com uma lista de imagens e ao topo um menu responsivo versão mobile"></a>
+</p>
+
+<p align="center">
+  <a><img src="./dia-13/dia-13-screenshot-desktop.png" alt="Tela principal com uma lista de imagens e ao topo um menu responsivo versão desktop" title="Tela principal com uma lista de imagens e ao topo um menu responsivo versão desktop"></a>
 </p>
