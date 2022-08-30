@@ -13,7 +13,8 @@
 - [x] Dia 11: Tela de Login
 - [x] Dia 12: Galeria
 - [x] Dia 13: Menu responsivo
-- [ ] Dia 14: ...
+- [x] Dia 14: Quiz Copa do Mundo
+- [ ] Dia 15: ...
 
 
 ## Dia 02: "Hello World" com efeito de digitação
@@ -108,4 +109,22 @@ Inspirada no efeito de pulso da logo do Skype, eu criei uma versão utilizando a
 
 <p align="center">
   <a><img src="./dia-13/dia-13-screenshot-desktop.png" alt="Tela principal com uma lista de imagens e ao topo um menu responsivo versão desktop" title="Tela principal com uma lista de imagens e ao topo um menu responsivo versão desktop"></a>
+</p>
+
+## Dia 14: Quiz Copa do Mundo
+
+<p align="center">
+  <a><img src="./dia-14/dia-14-quiz.png" alt="Quiz: nenhuma opção selecionada e o botão de verificar está desabilitado" title="Quiz: nenhuma opção selecionada e o botão de verificar está desabilitado"></a>
+</p>
+
+<p align="center">
+  <a><img src="./dia-14/dia-14-quiz-selecionado.png" alt="Quiz: uma opção selecionada e o botão de verificar está habilitado" title="Quiz: uma opção selecionada e o botão de verificar está habilitado"></a>
+</p>
+
+<p align="center">
+  <a><img src="./dia-14/dia-14-certo.png" alt="Quiz: resposta correta com o botão de próximo habilitado" title="Quiz: resposta correta com o botão de próximo habilitado"></a>
+</p>
+
+<p align="center">
+  <a><img src="./dia-14/dia-14-errado.png" alt="Quiz: resposta errada com o botão de próximo habilitado" title="Quiz: resposta errada com o botão de próximo habilitado"></a>
 </p>

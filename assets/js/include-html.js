@@ -1,7 +1,7 @@
-async function includeFile(filename = "../header.xml") {
+async function includeFile(filename = "../header.xml", element = "header") {
   fetch(filename)
     .then(response => response.text())
     .then(data => {
-      document.querySelector("header").innerHTML = data;
+      document.querySelector(element).innerHTML = data;
     });
 }
