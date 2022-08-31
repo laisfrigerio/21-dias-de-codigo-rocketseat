@@ -14,7 +14,8 @@
 - [x] Dia 12: Galeria
 - [x] Dia 13: Menu responsivo
 - [x] Dia 14: Quiz Copa do Mundo
-- [ ] Dia 15: ...
+- [x] Dia 15: E-commerce
+- [ ] Dia 16: ...
 
 
 ## Dia 02: "Hello World" com efeito de digitação
@@ -98,7 +99,7 @@ Inspirada no efeito de pulso da logo do Skype, eu criei uma versão utilizando a
 ## Dia 12: Galaeria de imagens
 
 <p align="center">
-  <a><img src="./dia-12/screenshot.png" alt="Galeria de imagens" title="aleria de imagens"></a>
+  <a><img src="./dia-12/screenshot.png" alt="Galeria de imagens" title="Galeria de imagens"></a>
 </p>
 
 ## Dia 13: Menu responsivo
@@ -127,4 +128,10 @@ Inspirada no efeito de pulso da logo do Skype, eu criei uma versão utilizando a
 
 <p align="center">
   <a><img src="./dia-14/dia-14-errado.png" alt="Quiz: resposta errada com o botão de próximo habilitado" title="Quiz: resposta errada com o botão de próximo habilitado"></a>
+</p>
+
+## Dia 15: E-commerce
+
+<p align="center">
+  <a><img src="./dia-15/dia-15-e-commerce.png" alt="E-commerce de venda de cursos de programação: 3 cursos à venda" title="E-commerce de venda de cursos de programação: 3 cursos à venda"></a>
 </p>
