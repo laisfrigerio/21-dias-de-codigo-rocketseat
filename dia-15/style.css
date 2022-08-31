@@ -1,0 +1,93 @@
+body {
+  flex-direction: column;
+  overflow: auto !important;
+}
+
+.my-courses {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+  margin: 0 auto 60px;
+  max-width: 992px;
+}
+.my-courses .course-card {
+  border: 1px solid var(--gray-700);
+  box-shadow: 1px 1px 8px 1px #232323;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  min-height: 320px;
+  width: 320px;
+}
+
+.my-courses img {
+  border-bottom: 1px solid var(--gray-700);
+  height: auto;
+  object-fit: cover;
+  transition: transform 0.2s linear, border 0.2s linear;
+}
+
+.info {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: start;
+  padding: 12px;
+  position: relative;
+  width: 100%;
+}
+
+.info h2 {
+  font-size: 19px;
+  color: var(--gray-350);
+  text-align: center;
+}
+
+.info ul {
+  margin-top: 24px;
+}
+
+.info ul li {
+  color: var(--gray-350);
+  position: relative;
+}
+
+.info ul li:before {
+  content: "\2713";
+  color: var(--green-500);
+  position: absolute;
+  left: -16px;
+}
+
+.price {
+  color: var(--green-500);
+  font-size: 48px;
+  font-weight: bold;
+  margin-top: 16px;
+  position: relative;
+}
+
+.price:before {
+  content: "R$";
+  color: var(--gray-350);
+  font-size: 24px;
+  left: -34px;
+  position: absolute;
+  top: 14px;
+}
+
+.pay {
+  background-color: var(--green-500);
+  color: var(--white);
+  cursor: pointer;
+  margin-top: 16px;
+  padding: 8px;
+  transition: filter .6s ease-in-out;
+  width: 100%;
+}
+
+.pay:hover {
+  filter: brightness(0.8);
+}

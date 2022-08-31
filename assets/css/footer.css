@@ -1,0 +1,18 @@
+footer {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+footer .avatar {
+  border: 3px solid var(--white);
+  border-radius: 50%;
+  height: auto;
+  width: 50px;
+}
+
+footer a {
+  color: var(--gray-350);
+  margin-top: 16px;
+}

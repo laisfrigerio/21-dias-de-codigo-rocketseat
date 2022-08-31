@@ -59,7 +59,7 @@ header svg {
 }
 
 @media screen and (max-width: 768px) {
-  header > div {
+  body:not(.no-toggle) header > div {
     justify-content: start;
     padding-left: 42px;
     gap: 16px;
