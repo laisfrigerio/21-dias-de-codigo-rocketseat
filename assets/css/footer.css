@@ -3,6 +3,7 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding-bottom: 60px;
 }
 
 footer .avatar {

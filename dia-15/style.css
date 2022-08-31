@@ -1,5 +1,6 @@
 body {
   flex-direction: column;
+  height: 100% !important;
   overflow: auto !important;
 }
 
@@ -8,7 +9,7 @@ body {
   flex-wrap: wrap;
   gap: 16px;
   justify-content: center;
-  margin: 0 auto 60px;
+  margin: 112px auto 60px;
   max-width: 992px;
 }
 .my-courses .course-card {
@@ -76,6 +77,15 @@ body {
   left: -34px;
   position: absolute;
   top: 14px;
+}
+
+.price:after {
+  bottom: 6px;
+  content: ",90";
+  color: var(--green-500);
+  font-size: 24px;
+  right: -30px;
+  position: absolute;
 }
 
 .pay {
