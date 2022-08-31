@@ -1,0 +1,25 @@
+{
+  "name": "21-dias-de-codigo-rocketseat",
+  "version": "0.1.0",
+  "description": "Repositório criado para o desafio de 21 dias de código com a Rocketseat rocket",
+  "main": "scripts.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laisfrigerio/21-dias-de-codigo-rocketseat.git"
+  },
+  "keywords": [],
+  "author": "Lais Frigério",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/laisfrigerio/21-dias-de-codigo-rocketseat/issues"
+  },
+  "homepage": "https://github.com/laisfrigerio/21-dias-de-codigo-rocketseat#readme",
+  "devDependencies": {
+    "@testing-library/dom": "^8.17.1",
+    "jest": "^29.0.1",
+    "jsdom": "^20.0.0"
+  }
+}

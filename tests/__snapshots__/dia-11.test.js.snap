@@ -1,0 +1,143 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`dia 11 should match the login page challenge 1`] = `
+<body
+  class="main-container"
+  id="particles-js"
+>
+  
+  
+  <header />
+  
+  
+  <div
+    class="glassmorphism-card"
+  >
+    
+    
+    <div
+      class="card"
+    >
+      
+      
+      <a
+        href="https://laisfrigerio.com.br/"
+        title="Site/Porfolio da Lais"
+      >
+        
+        
+        <img
+          alt="Avatar"
+          class="avatar"
+          src="https://avatars0.githubusercontent.com/u/20709086?s=460&u=13c9928ea02aa8349e70cac14ea211c40a8f80d9&v=4"
+        />
+        
+      
+      </a>
+      
+      
+      <h1>
+        Login
+      </h1>
+      
+      
+      <form
+        action="#"
+      >
+        
+        
+        <div
+          class="form-control"
+        >
+          
+          
+          <input
+            name="email"
+            placeholder="E-mail"
+            type="email"
+          />
+          
+        
+        </div>
+        
+        
+        <div
+          class="form-control"
+        >
+          
+          
+          <input
+            name="password"
+            placeholder="Senha"
+            type="password"
+          />
+          
+        
+        </div>
+        
+        
+        <button
+          type="button"
+        >
+          ACESSAR
+        </button>
+        
+      
+      </form>
+      
+    
+    </div>
+    
+  
+  </div>
+  
+  
+  <label
+    class="theme-mode"
+  >
+    
+    
+    <input
+      id="slider"
+      onchange="toggleTheme()"
+      type="checkbox"
+    />
+    
+    
+    <span
+      class="slider"
+    />
+    
+  
+  </label>
+  
+  
+  <script
+    src="../assets/js/particles.js"
+  />
+  
+  
+  <script
+    src="../assets/js/theme.js"
+  />
+  
+  
+  <script
+    src="../assets/js/include-html.js"
+  />
+  
+  
+  <script
+    src="scripts.js"
+  />
+  
+  
+  <script
+    src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"
+  />
+  
+
+
+
+</body>
+`;

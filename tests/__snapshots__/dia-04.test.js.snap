@@ -1,0 +1,226 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`dia 04 should match the calculator challenge 1`] = `
+<body
+  class="main-container"
+>
+  
+  
+  <header />
+  
+  
+  <section
+    class="wrapper"
+  >
+    
+    
+    <form
+      action="#"
+      class="calculator"
+      name="Calculator"
+    >
+      
+      
+      <input
+        class="visor"
+        disabled=""
+        name="visor"
+        type="text"
+      />
+      
+      
+      <div
+        class="line line-2"
+      >
+        
+        
+        <input
+          class="number"
+          name="number7"
+          onclick="display(number7.value)"
+          type="button"
+          value="7"
+        />
+        
+        
+        <input
+          class="number"
+          name="number8"
+          onclick="display(number8.value)"
+          type="button"
+          value="8"
+        />
+        
+        
+        <input
+          class="number"
+          name="number9"
+          onclick="display(number9.value)"
+          type="button"
+          value="9"
+        />
+        
+        
+        <input
+          class="operator"
+          name="operatorDiv"
+          onclick="display(operatorDiv.value)"
+          type="button"
+          value="/"
+        />
+        
+      
+      </div>
+      
+      
+      <div
+        class="line line-3"
+      >
+        
+        
+        <input
+          class="number"
+          name="number4"
+          onclick="display(number4.value)"
+          type="button"
+          value="4"
+        />
+        
+        
+        <input
+          class="number"
+          name="number5"
+          onclick="display(number5.value)"
+          type="button"
+          value="5"
+        />
+        
+        
+        <input
+          class="number"
+          name="number6"
+          onclick="display(number6.value)"
+          type="button"
+          value="6"
+        />
+        
+        
+        <input
+          class="operator"
+          name="operatorMulti"
+          onclick="display(operatorMulti.value)"
+          type="button"
+          value="*"
+        />
+        
+      
+      </div>
+      
+      
+      <div
+        class="line line-4"
+      >
+        
+        
+        <input
+          class="number"
+          name="number1"
+          onclick="display(number1.value)"
+          type="button"
+          value="1"
+        />
+        
+        
+        <input
+          class="number"
+          name="number2"
+          onclick="display(number2.value)"
+          type="button"
+          value="2"
+        />
+        
+        
+        <input
+          class="number"
+          name="number3"
+          onclick="display(number3.value)"
+          type="button"
+          value="3"
+        />
+        
+        
+        <input
+          class="operator"
+          name="operatorMinus"
+          onclick="display(operatorMinus.value)"
+          type="button"
+          value="-"
+        />
+        
+      
+      </div>
+      
+      
+      <div
+        class="line line-5"
+      >
+        
+        
+        <input
+          class="operator"
+          name="clear"
+          type="reset"
+          value="C"
+        />
+        
+        
+        <input
+          class="number"
+          name="number0"
+          onclick="display(number0.value)"
+          type="button"
+          value="0"
+        />
+        
+        
+        <input
+          class="operator"
+          name="calc"
+          onclick="evaluateExpression()"
+          type="button"
+          value="="
+        />
+        
+        
+        <input
+          class="operator"
+          name="operatorAdd"
+          onclick="display(operatorAdd.value)"
+          type="button"
+          value="+"
+        />
+        
+      
+      </div>
+      
+      
+  
+    </form>
+  </section>
+  
+
+  
+  <script
+    src="../assets/js/include-html.js"
+  />
+  
+  
+  <script
+    src="script.js"
+  />
+  
+
+
+
+</body>
+`;

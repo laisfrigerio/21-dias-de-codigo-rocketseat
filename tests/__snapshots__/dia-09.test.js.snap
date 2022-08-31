@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`dia 09 should match the loading challenge 1`] = `
+<body
+  class="main-container"
+  id="particles-js"
+>
+  
+  
+  <header />
+  
+  
+  <section>
+    
+    
+    <div
+      class="loading"
+    >
+      
+      
+      <div
+        class="ball gray-light"
+      />
+      
+      
+      <div
+        class="ball green-light"
+      />
+      
+      
+      <div
+        class="ball green-dark"
+      />
+      
+      
+      <div
+        class="ball gray-dark"
+      />
+      
+    
+    </div>
+    
+  
+  </section>
+  
+  
+  <script
+    src="../assets/js/particles.js"
+  />
+  
+  
+  <script
+    src="../assets/js/include-html.js"
+  />
+  
+  
+  <script
+    src="scripts.js"
+  />
+  
+  
+  <script
+    src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"
+  />
+  
+
+
+
+</body>
+`;

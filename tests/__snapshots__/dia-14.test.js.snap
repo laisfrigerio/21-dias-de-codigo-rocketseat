@@ -1,0 +1,119 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`dia 14 should match the quiz world cup challenge 1`] = `
+<body
+  class="main-container"
+  id="particles-js"
+>
+  
+  
+  <header />
+  
+  
+  <article
+    class="card-quiz"
+  >
+    
+    
+    <div
+      class="header"
+    >
+      
+      
+      <h1>
+        Quiz Copas do Mundo
+      </h1>
+      
+      
+      <span
+        class="score"
+      >
+        0
+      </span>
+      
+    
+    </div>
+    
+    
+    <form
+      action="#"
+    >
+      
+      
+      <h2
+        class="quiz-question"
+      >
+        1) Qual foi a primeira seleção campeã?
+      </h2>
+      
+      
+      <ul
+        class="quiz-answers"
+      >
+        
+      
+      </ul>
+      
+    
+    </form>
+    
+    
+    <div
+      class="footer"
+    >
+      
+      
+      <button
+        class="verify"
+        type="button"
+      >
+        VERIFICAR
+      </button>
+      
+    
+    </div>
+    
+    
+    <div
+      class="end-quiz"
+    />
+    
+  
+  </article>
+  
+
+  
+  <script
+    src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"
+  />
+  
+  
+  <script
+    src="../assets/js/theme.js"
+  />
+  
+  
+  <script
+    src="../assets/js/particles.js"
+  />
+  
+  
+  <script
+    src="../assets/js/include-html.js"
+  />
+  
+  
+  <script
+    src="./questions.js"
+  />
+  
+  
+  <script
+    src="./scripts.js"
+  />
+  
+
+
+
+</body>
+`;

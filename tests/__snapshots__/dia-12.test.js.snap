@@ -1,0 +1,286 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`dia 12 should match the gallery images challenge 1`] = `
+<body
+  id="particles-js"
+>
+  
+  
+  <header />
+  
+
+  
+  <section
+    class="gallery"
+  >
+    
+    
+    <figure
+      class="card-img"
+    >
+      
+      
+      <img
+        alt=""
+        src="../assets/images/gallery/dia-02-hello-world.png"
+      />
+      
+      
+      <figcaption
+        class="legend"
+      >
+        Dia 02: Hello World
+      </figcaption>
+      
+    
+    </figure>
+    
+    
+    <figure
+      class="card-img"
+    >
+      
+      
+      <img
+        alt=""
+        src="../assets/images/gallery/dia-03-botao.png"
+      />
+      
+      
+      <figcaption
+        class="legend"
+      >
+        Dia 03: Botão animado
+      </figcaption>
+      
+    
+    </figure>
+    
+    
+    <figure
+      class="card-img"
+    >
+      
+      
+      <img
+        alt=""
+        src="../assets/images/gallery/dia-04-calculadora.png"
+      />
+      
+      
+      <figcaption
+        class="legend"
+      >
+        Dia 04: Calculadora
+      </figcaption>
+      
+    
+    </figure>
+    
+    
+    <figure
+      class="card-img"
+    >
+      
+      
+      <img
+        alt=""
+        src="../assets/images/gallery/dia-05-erro-404.png"
+      />
+      
+      
+      <figcaption
+        class="legend"
+      >
+        Dia 05: Página 404
+      </figcaption>
+      
+    
+    </figure>
+    
+    
+    <figure
+      class="card-img"
+    >
+      
+      
+      <img
+        alt=""
+        src="../assets/images/gallery/dia-06-profile-card.png"
+      />
+      
+      
+      <figcaption
+        class="legend"
+      >
+        Dia 06: Glassmorphism
+      </figcaption>
+      
+    
+    </figure>
+    
+    
+    <figure
+      class="card-img"
+    >
+      
+      
+      <img
+        alt=""
+        src="../assets/images/gallery/dia-07-contador.png"
+      />
+      
+      
+      <figcaption
+        class="legend"
+      >
+        Dia 07: Contador
+      </figcaption>
+      
+    
+    </figure>
+    
+    
+    <figure
+      class="card-img"
+    >
+      
+      
+      <img
+        alt=""
+        src="../assets/images/gallery/dia-08-tema.png"
+      />
+      
+      
+      <figcaption
+        class="legend"
+      >
+        Dia 08: Toggle tema
+      </figcaption>
+      
+    
+    </figure>
+    
+    
+    <figure
+      class="card-img"
+    >
+      
+      
+      <img
+        alt=""
+        src="../assets/images/gallery/dia-09-loading.png"
+      />
+      
+      
+      <figcaption
+        class="legend"
+      >
+        Dia 09: Loading
+      </figcaption>
+      
+    
+    </figure>
+    
+    
+    <figure
+      class="card-img"
+    >
+      
+      
+      <img
+        alt=""
+        src="../assets/images/gallery/dia-10-particles-js.png"
+      />
+      
+      
+      <figcaption
+        class="legend"
+      >
+        Dia 10: particle.js
+      </figcaption>
+      
+    
+    </figure>
+    
+    
+    <figure
+      class="card-img"
+    >
+      
+      
+      <img
+        alt=""
+        src="../assets/images/gallery/dia-11-login.png"
+      />
+      
+      
+      <figcaption
+        class="legend"
+      >
+        Dia 11: Formulário Login
+      </figcaption>
+      
+    
+    </figure>
+    
+  
+  </section>
+  
+  
+  <section
+    class="modal"
+  >
+    
+    
+    <div
+      class="close-btn"
+    >
+      ×
+    </div>
+    
+    
+    <div
+      class="modal-content"
+    >
+      
+      
+      <img
+        alt=""
+        src="../assets/images/gallery/dia-05-erro-404.png"
+      />
+      
+    
+    </div>
+    
+  
+  </section>
+  
+  
+  <footer />
+  
+  
+  <script
+    src="../assets/js/particles.js"
+  />
+  
+  
+  <script
+    src="../assets/js/include-html.js"
+  />
+  
+  
+  <script
+    src="scripts.js"
+  />
+  
+  
+  <script
+    src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"
+  />
+  
+
+
+
+</body>
+`;

@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`dia 02 should match the hello world challenge 1`] = `
+<body
+  class="main-container"
+>
+  
+  
+  <header />
+  
+  
+  <h1>
+    
+    
+    <span>
+      |&gt;
+    </span>
+    
+    Hello World
+  
+  </h1>
+  
+  
+  <script
+    src="../assets/js/include-html.js"
+  />
+  
+  
+  <script
+    src="scripts.js"
+  />
+  
+
+
+
+</body>
+`;

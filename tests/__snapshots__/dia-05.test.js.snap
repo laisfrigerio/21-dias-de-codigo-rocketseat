@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`dia 05 should match the error 404 page challenge 1`] = `
+<body
+  class="main-container"
+>
+  
+  
+  <header />
+  
+  
+  <section>
+    
+    
+    <div
+      class="error-404"
+    >
+      
+      
+      <div>
+        4
+      </div>
+      
+      
+      <div
+        class="face"
+      >
+        
+        
+        <span
+          class="eye"
+        >
+          
+          
+          <span
+            class="eyebrow"
+          />
+          
+          
+          <span
+            class="pupil"
+          />
+          
+        
+        </span>
+        
+        
+        <span
+          class="eye"
+        >
+          
+          
+          <span
+            class="eyebrow"
+          />
+          
+          
+          <span
+            class="pupil"
+          />
+          
+        
+        </span>
+        
+      
+      </div>
+      
+      
+      <div>
+        4
+      </div>
+      
+    
+    </div>
+    
+    
+    <h1>
+      Oooops, a página que você está procurando parece que não existe ;(
+    </h1>
+    
+  
+  </section>
+  
+  
+  <script
+    src="../assets/js/include-html.js"
+  />
+  
+  
+  <script
+    src="./scripts.js"
+  />
+  
+
+
+
+</body>
+`;
