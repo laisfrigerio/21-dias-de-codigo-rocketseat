@@ -1,4 +1,5 @@
 window.onload = function () {
   initParticleJs()
-  includeFile("./header.xml")
+  includeHeader("./header.xml")
+  includeFooter("./footer.html")
 }

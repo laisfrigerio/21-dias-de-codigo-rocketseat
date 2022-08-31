@@ -146,7 +146,7 @@ function enableButton(enable) {
 window.onload = function () {
   initTheme()
   initParticleJs()
-  includeFile()
+  includeHeader()
   showQuestion()
   handleClickVerifyButton()
   enableButton(true)

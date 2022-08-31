@@ -5,3 +5,11 @@ async function includeFile(filename = "../header.xml", element = "header") {
       document.querySelector(element).innerHTML = data;
     });
 }
+
+async function includeHeader(filename = "../header.xml") {
+  includeFile(filename, "header")
+}
+
+async function includeFooter(filename = "../footer.html") {
+  includeFile(filename, "footer")
+}

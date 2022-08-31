@@ -48,5 +48,5 @@ function countDown() {
 
 window.onload = function () {
   setInterval(countDown, 1000)
-  includeFile()
+  includeHeader()
 }
