@@ -1,5 +1,5 @@
-function initParticleJs() {
-  particlesJS.load('particles-js', '../assets/json/particles.json', function () {
+function initParticleJs(jsonConfig = '../assets/json/particles.json') {
+  particlesJS.load('particles-js', jsonConfig, function () {
     console.log('callback - particles.js config loaded');
   });
 }
