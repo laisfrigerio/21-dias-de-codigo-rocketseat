@@ -2,7 +2,7 @@
 
 exports[`dia 02 should match the hello world challenge 1`] = `
 <body
-  class="main-container"
+  class="main-container no-toggle"
 >
   
   

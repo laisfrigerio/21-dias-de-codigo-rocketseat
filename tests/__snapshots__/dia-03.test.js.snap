@@ -2,7 +2,7 @@
 
 exports[`dia 03 should match the animated button challenge 1`] = `
 <body
-  class="main-container"
+  class="main-container no-toggle"
 >
   
   

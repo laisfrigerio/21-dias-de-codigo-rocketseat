@@ -2,7 +2,7 @@
 
 exports[`dia 09 should match the loading challenge 1`] = `
 <body
-  class="main-container"
+  class="main-container no-toggle"
   id="particles-js"
 >
   

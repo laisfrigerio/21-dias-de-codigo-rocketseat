@@ -4,7 +4,8 @@
   "description": "Repositório criado para o desafio de 21 dias de código com a Rocketseat rocket",
   "main": "scripts.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test:update-snapshot": "jest --updateSnapshot"
   },
   "repository": {
     "type": "git",

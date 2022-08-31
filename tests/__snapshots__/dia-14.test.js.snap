@@ -2,7 +2,7 @@
 
 exports[`dia 14 should match the quiz world cup challenge 1`] = `
 <body
-  class="main-container"
+  class="main-container no-toggle"
   id="particles-js"
 >
   

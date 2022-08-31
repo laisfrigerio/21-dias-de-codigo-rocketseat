@@ -2,7 +2,7 @@
 
 exports[`dia 06 should match the glassmorphism challenge 1`] = `
 <body
-  class="main-container"
+  class="main-container no-toggle"
 >
   
   

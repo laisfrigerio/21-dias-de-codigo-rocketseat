@@ -2,7 +2,7 @@
 
 exports[`dia 05 should match the error 404 page challenge 1`] = `
 <body
-  class="main-container"
+  class="main-container no-toggle"
 >
   
   

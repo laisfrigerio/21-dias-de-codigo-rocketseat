@@ -2,7 +2,7 @@
 
 exports[`dia 04 should match the calculator challenge 1`] = `
 <body
-  class="main-container"
+  class="main-container no-toggle"
 >
   
   
