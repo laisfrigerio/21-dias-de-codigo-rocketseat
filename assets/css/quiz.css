@@ -139,23 +139,23 @@
   border-width: 1px;
 }
 
-.end-quiz {
+.quiz-end {
   align-items: center;
   display: none;
   justify-content: center;
   min-height: inherit;
 }
 
-.end-quiz.show {
+.quiz-end.show {
   display: flex;
 }
 
-.end-quiz img {
+.quiz-end img {
   height: 100px;
   width: auto;
 }
 
-.end-quiz h3 {
+.quiz-end h3 {
   color: var(--green-500);
   text-align: center;
 }

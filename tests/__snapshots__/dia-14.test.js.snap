@@ -75,7 +75,7 @@ exports[`dia 14 should match the quiz world cup challenge 1`] = `
     
     
     <div
-      class="end-quiz"
+      class="quiz-end"
     />
     
   
@@ -104,7 +104,12 @@ exports[`dia 14 should match the quiz world cup challenge 1`] = `
   
   
   <script
-    src="./questions.js"
+    src="../assets/js/quiz-questions.js"
+  />
+  
+  
+  <script
+    src="../assets/js/quiz.js"
   />
   
   
