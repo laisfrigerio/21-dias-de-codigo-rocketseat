@@ -6,10 +6,10 @@ async function includeFile(filename = "../header.xml", element = "header") {
     });
 }
 
-async function includeHeader(filename = "../header.xml") {
+async function includeHeader(filename = "../assets/html/header.xml") {
   includeFile(filename, "header")
 }
 
-async function includeFooter(filename = "../footer.html") {
+async function includeFooter(filename = "../assets/html/footer.html") {
   includeFile(filename, "footer")
 }
