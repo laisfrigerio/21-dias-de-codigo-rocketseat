@@ -11,7 +11,7 @@ const quizAnswersContainer = document.querySelector('.quiz-answers')
 const scoreContainer = document.querySelector('.score')
 
 let currentQuestionIndex = 0
-let currentQuestion = allQuestions[currentQuestionIndex]
+let currentQuestion = null
 let score = 0
 
 function removeClass(quizAnswerOptions, className) {
@@ -144,6 +144,9 @@ function enableButton(enable) {
 }
 
 function initQuiz() {
+  console.log('initQuiz')
+  currentQuestion = allQuestions[currentQuestionIndex]
+
   initTheme()
   initParticleJs()
   includeHeader()

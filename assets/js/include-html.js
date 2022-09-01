@@ -13,3 +13,7 @@ async function includeHeader(filename = "../assets/html/header.xml") {
 async function includeFooter(filename = "../assets/html/footer.html") {
   includeFile(filename, "footer")
 }
+
+async function includeSpinner(filename = "../assets/html/loading.html") {
+  includeFile(filename, ".spinner")
+}

@@ -1,0 +1,130 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`dia 16 should match the consume API challenge 1`] = `
+<body
+  class="main-container no-toggle"
+  id="particles-js"
+>
+  
+  
+  <header />
+  
+  
+  <article
+    class="card-quiz"
+  >
+    
+    
+    <div
+      class="header"
+    >
+      
+      
+      <h1>
+        Sports
+      </h1>
+      
+      
+      <span
+        class="score"
+      >
+        0
+      </span>
+      
+    
+    </div>
+    
+    
+    <form
+      action="#"
+    >
+      
+      
+      <h2
+        class="quiz-question"
+      />
+      
+      
+      <ul
+        class="quiz-answers"
+      >
+        
+      
+      </ul>
+      
+    
+    </form>
+    
+    
+    <div
+      class="footer"
+    >
+      
+      
+      <button
+        class="verify"
+        type="button"
+      >
+        VERIFICAR
+      </button>
+      
+    
+    </div>
+    
+    
+    <div
+      class="quiz-end"
+    />
+    
+    
+    <div
+      class="spinner"
+    />
+    
+  
+  </article>
+  
+
+  
+  <script
+    src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"
+  />
+  
+  
+  <script
+    src="../assets/js/theme.js"
+  />
+  
+  
+  <script
+    src="../assets/js/particles.js"
+  />
+  
+  
+  <script
+    src="../assets/js/include-html.js"
+  />
+  
+  
+  <!-- &lt;script src="../assets/js/quiz-questions.js"&gt;&lt;/script&gt; -->
+  
+  
+  <script
+    src="./load-questions.js"
+  />
+  
+  
+  <script
+    src="../assets/js/quiz.js"
+  />
+  
+  
+  <script
+    src="./scripts.js"
+  />
+  
+
+
+
+</body>
+`;

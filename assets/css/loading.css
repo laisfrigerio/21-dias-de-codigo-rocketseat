@@ -3,28 +3,28 @@
   gap: 16px;
 }
 
-.ball {
+.loading .ball {
   animation: 2s bounce ease infinite;
   border-radius: 50%;
   height: 30px;
   width: 30px;
 }
 
-.gray-light {
+.loading .gray-light {
   background-color: var(--gray-400);
 }
 
-.green-light {
+.loading .green-light {
   background-color: var(--green-400);
   animation-delay: 0.25s;
 }
 
-.green-dark {
+.loading .green-dark {
   background-color: var(--green-500);
   animation-delay: 0.5s;
 }
 
-.gray-dark {
+.loading .gray-dark {
   background-color: var(--gray-600);
   animation-delay: 0.75s;
 }

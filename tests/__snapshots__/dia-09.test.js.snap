@@ -10,38 +10,9 @@ exports[`dia 09 should match the loading challenge 1`] = `
   <header />
   
   
-  <section>
-    
-    
-    <div
-      class="loading"
-    >
-      
-      
-      <div
-        class="ball gray-light"
-      />
-      
-      
-      <div
-        class="ball green-light"
-      />
-      
-      
-      <div
-        class="ball green-dark"
-      />
-      
-      
-      <div
-        class="ball gray-dark"
-      />
-      
-    
-    </div>
-    
-  
-  </section>
+  <div
+    class="spinner"
+  />
   
   
   <script

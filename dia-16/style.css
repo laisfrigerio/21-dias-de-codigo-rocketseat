@@ -1,0 +1,9 @@
+.spinner section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-quiz button {
+  display: none;
+}
