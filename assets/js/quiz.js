@@ -6,6 +6,8 @@ const VERIFY_BUTTON = 'verify'
 const NEXT_BUTTON = 'next'
 const DISABLED_BUTTON = 'disabled'
 
+const ENTER_KEY = 'Enter'
+
 const quizQuestion = document.querySelector('.quiz-question')
 const quizAnswersContainer = document.querySelector('.quiz-answers')
 const scoreContainer = document.querySelector('.score')
@@ -20,20 +22,32 @@ function removeClass(quizAnswerOptions, className) {
   })
 }
 
+function handleClickAnswerOption(quizAnswerOptions, option) {
+  if (option.classList.contains(SELECTED_OPTION)) {
+    option.classList.remove(SELECTED_OPTION)
+    enableButton(true)
+    return
+  }
+
+  removeClass(quizAnswerOptions, SELECTED_OPTION)
+  option.classList.add(SELECTED_OPTION)
+  enableButton(false)
+}
+
 function handleClickAnswer() {
   const quizAnswerOptions = document.querySelectorAll('.quiz-answers li')
 
   quizAnswerOptions.forEach((option, _) => {
     option.addEventListener('click', () => {
-      if (option.classList.contains(SELECTED_OPTION)) {
-        option.classList.remove(SELECTED_OPTION)
-        enableButton(true)
-        return
-      }
+      console.log('cliquei no item')
+      handleClickAnswerOption(quizAnswerOptions, option)
+    })
 
-      removeClass(quizAnswerOptions, SELECTED_OPTION)
-      option.classList.add(SELECTED_OPTION)
-      enableButton(false)
+    option.addEventListener('keypress', (event) => {
+      if (event.key === ENTER_KEY) {
+        console.log('pressionei a tecla enter')
+        handleClickAnswerOption(quizAnswerOptions, option)
+      }
     })
   })
 }
@@ -55,6 +69,8 @@ function showAnsers(options, correctAnswer) {
   quizAnswersContainer.innerHTML = ''
   options.forEach((option, _) => {
     const liHTML = document.createElement('li')
+    liHTML.setAttribute('role', 'listitem')
+    liHTML.setAttribute('tabindex', '0')
     liHTML.innerText = option
 
     if (option === correctAnswer) {

@@ -19,16 +19,16 @@
   <header></header>
   <article class="card-quiz">
     <div class="header">
-      <h1>Sports</h1>
-      <span class="score">0</span>
+      <h1 tabindex="0">Sports</h1>
+      <span tabindex="0" class="score">0</span>
     </div>
     <form action="#">
-      <h2 class="quiz-question"></h2>
-      <ul class="quiz-answers">
+      <h2 tabindex="0" class="quiz-question"></h2>
+      <ul role="list" class="quiz-answers">
       </ul>
     </form>
     <div class="footer">
-      <button type="button" class="verify">VERIFICAR</button>
+      <button tabindex="0" role="button" type="button" class="verify">VERIFICAR</button>
     </div>
     <div class="quiz-end"></div>
     <div class="spinner"></div>
@@ -38,7 +38,6 @@
   <script src="../assets/js/theme.js"></script>
   <script src="../assets/js/particles.js"></script>
   <script src="../assets/js/include-html.js"></script>
-  <!-- <script src="../assets/js/quiz-questions.js"></script> -->
   <script src="./load-questions.js"></script>
   <script src="../assets/js/quiz.js"></script>
   <script src="./scripts.js"></script>
