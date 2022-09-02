@@ -31,7 +31,7 @@ header li {
 
 header a {
   align-items: center;
-  color: var(--gray-350);
+  color: var(--gray-200);
   display: flex;
   font-size: 16px;
   gap: 8px;
@@ -41,7 +41,7 @@ header a {
 }
 
 header a svg path {
-  fill: var(--gray-350);
+  fill: var(--gray-200);
   transition: fill 0.6s ease-in-out;
 }
 
