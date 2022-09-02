@@ -15,7 +15,9 @@
 - [x] Dia 13: Menu responsivo
 - [x] Dia 14: Quiz Copa do Mundo
 - [x] Dia 15: E-commerce
-- [ ] Dia 16: ...
+- [x] Dia 16: Consumindo uma API pública
+- [x] Dia 17: Captirando eventos do teclado
+- [] Dia 18: ...
 
 
 ## Dia 02: "Hello World" com efeito de digitação
@@ -135,3 +137,17 @@ Inspirada no efeito de pulso da logo do Skype, eu criei uma versão utilizando a
 <p align="center">
   <a><img src="./dia-15/dia-15-e-commerce.png" alt="E-commerce de venda de cursos de programação: 3 cursos à venda" title="E-commerce de venda de cursos de programação: 3 cursos à venda"></a>
 </p>
+
+## Dia 16: Consumindo uma API Pública (Trivia Quiz)
+
+<p align="center">
+  <a><img src="./dia-16/dia-16-consumindo-api-publica.png" alt="Questionário com perguntas do tema Esportes capturadas de uma API pública" title="Questionário com perguntas do tema Esportes capturadas de uma API pública"></a>
+</p>
+
+
+## Dia 17: Capturando eventos do teclado
+
+<p align="center">
+  <a><img src="./dia-17/dia-17-captura-de-eventos-e-acessibilidade.png" alt="Ajuste de acessibilidade no Questionário, como textos de links e contrastes entre cores" title="Ajuste de acessibilidade no Questionário, como textos de links e contrastes entre cores"></a>
+</p>
+
