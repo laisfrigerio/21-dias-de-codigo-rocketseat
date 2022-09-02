@@ -20,13 +20,16 @@ exports[`dia 16 should match the consume API challenge 1`] = `
     >
       
       
-      <h1>
+      <h1
+        tabindex="0"
+      >
         Sports
       </h1>
       
       
       <span
         class="score"
+        tabindex="0"
       >
         0
       </span>
@@ -42,11 +45,13 @@ exports[`dia 16 should match the consume API challenge 1`] = `
       
       <h2
         class="quiz-question"
+        tabindex="0"
       />
       
       
       <ul
         class="quiz-answers"
+        role="list"
       >
         
       
@@ -63,6 +68,8 @@ exports[`dia 16 should match the consume API challenge 1`] = `
       
       <button
         class="verify"
+        role="button"
+        tabindex="0"
         type="button"
       >
         VERIFICAR
@@ -104,9 +111,6 @@ exports[`dia 16 should match the consume API challenge 1`] = `
   <script
     src="../assets/js/include-html.js"
   />
-  
-  
-  <!-- &lt;script src="../assets/js/quiz-questions.js"&gt;&lt;/script&gt; -->
   
   
   <script
