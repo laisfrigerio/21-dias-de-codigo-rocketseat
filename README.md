@@ -17,6 +17,7 @@
 - [x] Dia 15: E-commerce
 - [x] Dia 16: Consumindo uma API pública
 - [x] Dia 17: Captirando eventos do teclado
+- [x] Dia 18: Gerador de senha
 - [] Dia 18: ...
 
 
@@ -149,5 +150,11 @@ Inspirada no efeito de pulso da logo do Skype, eu criei uma versão utilizando a
 
 <p align="center">
   <a><img src="./dia-17/dia-17-captura-de-eventos-e-acessibilidade.png" alt="Ajuste de acessibilidade no Questionário, como textos de links e contrastes entre cores" title="Ajuste de acessibilidade no Questionário, como textos de links e contrastes entre cores"></a>
+</p>
+
+## Dia 18: Gerador de senha
+
+<p align="center">
+  <a><img src="./dia-18/dia-18-screenshot.png" alt="Gerador de senha" title="Gerador de senha"></a>
 </p>
 
