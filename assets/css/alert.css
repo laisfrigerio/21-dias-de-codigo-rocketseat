@@ -1,0 +1,39 @@
+.alert {
+  border-radius: 10px;
+  height: fit-content;
+  left: 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 8px;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: -50px;
+  width: fit-content;
+  z-index: 1000;
+}
+
+.alert.success {
+  background-color: var(--green-500);
+  color: var(--white);
+}
+
+.alert.show {
+  animation: 5s show ease;
+  animation-iteration-count: 1;
+  top: 80px;
+}
+
+@keyframes show {
+  0% {
+    top: -50px;
+  }
+
+  50% {
+    top: 80px;
+  }
+
+  100% {
+    top: -50px;
+  }
+}

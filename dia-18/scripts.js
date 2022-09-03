@@ -17,8 +17,14 @@ function handleClickGenerateBtn() {
 }
 
 function handleClickCopyBtn() {
+  const alert = document.querySelector('.alert')
   const password = document.querySelector('#input-password').value
   window.navigator.clipboard.writeText(password)
+  alert.classList.toggle('show')
+
+  setTimeout(() => {
+    alert.classList.toggle('show')
+  }, 5000)
 }
 
 window.onload = function () {
