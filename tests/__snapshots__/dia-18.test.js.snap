@@ -1,0 +1,265 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`dia 18 should match the password generator challenge 1`] = `
+<body
+  class="main-container"
+  id="particles-js"
+>
+  
+  
+  <header />
+  
+
+  
+  <section
+    class="password-generator"
+  >
+    
+    
+    <h1>
+      Password Generator
+    </h1>
+    
+    
+    <form
+      action="#"
+    >
+      
+      
+      <div
+        class="form-input"
+      >
+        
+        
+        <label
+          for="password"
+        >
+          Password
+        </label>
+        
+        
+        <input
+          disabled=""
+          id="input-password"
+          type="text"
+        />
+        
+      
+      </div>
+      
+
+      
+      <ul
+        class="config"
+      >
+        
+        
+        <li
+          class="form-switch"
+        >
+          
+          
+          <h2
+            for="capitals"
+          >
+            User Capitals
+          </h2>
+          
+          
+          <label
+            class="switch"
+          >
+            
+            
+            <input
+              data-value="hasCapitalLetters"
+              id="switch-capitals"
+              name="capitals"
+              type="checkbox"
+            />
+            
+            
+            <span
+              class="slider round"
+            />
+            
+          
+          </label>
+          
+        
+        </li>
+        
+        
+        <li
+          class="form-switch"
+        >
+          
+          
+          <h2
+            for="numbers"
+          >
+            User Numbers
+          </h2>
+          
+          
+          <label
+            class="switch"
+          >
+            
+            
+            <input
+              data-value="hasNumbers"
+              id="switch-numbers"
+              name="numbers"
+              type="checkbox"
+            />
+            
+            
+            <span
+              class="slider round"
+            />
+            
+          
+          </label>
+          
+        
+        </li>
+        
+        
+        <li
+          class="form-switch"
+        >
+          
+          
+          <h2
+            for="special-characters"
+          >
+            User special characters
+          </h2>
+          
+          
+          <label
+            class="switch"
+          >
+            
+            
+            <input
+              data-value="hasSpecialCharacters"
+              id="switch-special-characters"
+              name="special-characters"
+              type="checkbox"
+            />
+            
+            
+            <span
+              class="slider round"
+            />
+            
+          
+          </label>
+          
+        
+        </li>
+        
+      
+      </ul>
+      
+      
+      <div
+        class="form-actions"
+      >
+        
+        
+        <button
+          onclick="handleClickGenerateBtn()"
+          type="button"
+        >
+          GENERATE
+        </button>
+        
+        
+        <button
+          onclick="handleClickCopyBtn()"
+          type="button"
+        >
+          COPY
+        </button>
+        
+      
+      </div>
+      
+    
+    </form>
+    
+  
+  </section>
+  
+
+  
+  <footer />
+  
+
+  
+  <div
+    class="alert success"
+  >
+    Copy to Clipboard
+  </div>
+  
+
+  
+  <label
+    class="theme-mode"
+  >
+    
+    
+    <input
+      id="slider"
+      onchange="toggleTheme()"
+      type="checkbox"
+    />
+    
+    
+    <span
+      class="slider"
+    />
+    
+  
+  </label>
+  
+
+  
+  <script
+    src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"
+  />
+  
+  
+  <script
+    src="../assets/js/particles.js"
+  />
+  
+  
+  <script
+    src="../assets/js/theme.js"
+  />
+  
+  
+  <script
+    src="../assets/js/include-html.js"
+  />
+  
+  
+  <script
+    src="./password-generator.js"
+  />
+  
+  
+  <script
+    src="./scripts.js"
+  />
+  
+
+
+
+</body>
+`;
