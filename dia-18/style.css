@@ -5,6 +5,9 @@
   --card-input-disabled: var(--gray-700);
   --card-input-border: var(--gray-600);
   --card-switch-disabled: var(--gray-600);
+  --card-copy-btn-border-color: #5fa0c3;
+  --card-copy-btn-background: #3e5460;
+  --card-copy-btn-text-color: #7acbf7;
 }
 
 .theme-light {
@@ -14,6 +17,9 @@
   --card-input-disabled: var(--gray-200);
   --card-input-border: var(--card-border);
   --card-switch-disabled: var(--gray-200);
+  --card-copy-btn-border-color: #2b8abd;
+  --card-copy-btn-background: #1797dc;
+  --card-copy-btn-text-color: var(--white);
 }
 
 body,
@@ -86,6 +92,12 @@ body,
 
 .form-actions button:first-child {
   width: calc(50% - 16px); 
+}
+
+.form-actions button.copy-btn {
+  background-color: var(--card-copy-btn-background);
+  border: 1px solid var(--card-copy-btn-border-color);
+  color: var(--card-copy-btn-text-color);
 }
 
 .config label {
