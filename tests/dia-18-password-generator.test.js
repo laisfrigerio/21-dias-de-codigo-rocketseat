@@ -4,7 +4,7 @@ const {
   passwordHasLowerLetters,
   passwordHasCapitalLetters,
   passwordHasSpecialCharacters
-} = require('../dia-18/password-generator')
+} = require('../dia-18/gen')
 
 function passwordHasNumbersAndLowerLetters(str) {
   return passwordHasNumbers(str) && passwordHasLowerLetters(str)
@@ -19,49 +19,49 @@ function passwordHasLowerLettersAndCapitalLetters(str) {
 }
 
 test('generate a password with numbers', () => {
-  const password = generator({ hasNumbers: true })
+  const password = generator(['hasNumbers'])
   expect(passwordHasNumbers(password)).toBe(true)
 })
 
 test('generate a password with lower letters', () => {
-  const password = generator({ hasLowerLetters: true })
+  const password = generator(['hasLowerLetters'])
   expect(passwordHasLowerLetters(password)).toBe(true)
 })
 
 test('generate a password with capital letters', () => {
-  const password = generator({ hasCapitalLetters: true })
+  const password = generator(['hasCapitalLetters'])
   expect(passwordHasCapitalLetters(password)).toBe(true)
 })
 
 test('generate a password with numbers and lower letters', () => {
-  const password = generator({ hasNumbers: true, hasLowerLetters: true })
+  const password = generator(['hasNumbers', 'hasLowerLetters'])
   expect(passwordHasNumbersAndLowerLetters(password)).toBe(true)
 })
 
 test('generate a password with numbers and lower letters', () => {
-  const password = generator({ hasNumbers: true, hasCapitalLetters: true })
+  const password = generator(['hasNumbers', 'hasCapitalLetters'])
   expect(passwordHasNumbersAndCapitalLetters(password)).toBe(true)
 })
 
 test('generate a password with lower letters and capital letters', () => {
-  const password = generator({ hasLowerLetters: true, hasCapitalLetters: true })
+  const password = generator(['hasLowerLetters', 'hasCapitalLetters'])
   expect(passwordHasLowerLettersAndCapitalLetters(password)).toBe(true)
 })
 
 test('generate a password without numbers', () => {
-  const password = generator({ hasNumbers: false, hasCapitalLetters: true })
+  const password = generator(['hasCapitalLetters'])
   expect(passwordHasNumbers(password)).toBe(false)
   expect(passwordHasCapitalLetters(password)).toBe(true)
 })
 
 test('generate a password with special characters', () => {
-  const password = generator({ hasSpecialCharacters: true })
+  const password = generator(['hasSpecialCharacters'])
   expect(passwordHasSpecialCharacters(password)).toBe(true)
 })
 
 
 test('generate a password with letters, capital letters, numbers and special characters', () => {
-  const password = generator({ hasNumbers: true, hasCapitalLetters: true, hasLowerLetters: true, hasSpecialCharacters: true })
+  const password = generator(['hasNumbers', 'hasLowerLetters', 'hasCapitalLetters', 'hasSpecialCharacters'])
   expect(passwordHasNumbers(password)).toBe(true)
   expect(passwordHasCapitalLetters(password)).toBe(true)
   expect(passwordHasLowerLetters(password)).toBe(true)
