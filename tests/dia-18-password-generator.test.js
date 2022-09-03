@@ -18,6 +18,16 @@ function passwordHasLowerLettersAndCapitalLetters(str) {
   return passwordHasLowerLetters(str) && passwordHasCapitalLetters(str)
 }
 
+test('empty array', () => {
+  const password = generator()
+  expect(passwordHasLowerLetters(password)).toBe(true)
+})
+
+test('Invalid array rules', () => {
+  const password = generator(['', 'notExists'])
+  expect(passwordHasLowerLetters(password)).toBe(true)
+})
+
 test('generate a password with numbers', () => {
   const password = generator(['hasNumbers'])
   expect(passwordHasNumbers(password)).toBe(true)
