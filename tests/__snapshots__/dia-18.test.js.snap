@@ -179,6 +179,7 @@ exports[`dia 18 should match the password generator challenge 1`] = `
         
         
         <button
+          class="copy-btn"
           onclick="handleClickCopyBtn()"
           type="button"
         >

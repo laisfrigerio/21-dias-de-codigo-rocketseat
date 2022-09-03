@@ -30,16 +30,10 @@ const buildAvailableRules = (rules) => {
 }
 
 const buildAvailableChars = (rules) => {
-  let characters = LOWER_LETTERS
-
-  if (!Array.isArray(rules)) {
-    return characters
-  }
-
   return rules.reduce((accumulator, currentRule) => {
     const [currentCharacters] = GetRuleConfiguration(currentRule)
     return currentCharacters ? accumulator + currentCharacters : accumulator
-  }, characters)
+  }, LOWER_LETTERS)
 }
 
 const valid = (rules, password) => {
