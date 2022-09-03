@@ -8,6 +8,7 @@
   --form-input-border-color: #299384;
   --form-input-box-shadow: #6cc5b9;
   --header-border: #cfcfcf;
+  --header-text: var(--gray-350);
 }
 
 .theme-dark {
@@ -20,6 +21,7 @@
   --form-input-border-color: #fff;
   --form-input-box-shadow: #fff;
   --header-border: var(--gray-700);
+  --header-text: var(--gray-200);
 }
 
 .theme-mode {
