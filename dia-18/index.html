@@ -22,42 +22,35 @@
     <form action="#">
       <div class="form-input">
         <label for="password">Password</label>
-        <input type="text" disabled>
+        <input id="input-password" type="text" disabled>
       </div>
 
       <ul class="config">
         <li class="form-switch">
-          <h2 for="letters">User letters</h2>
-          <label class="switch">
-            <input type="checkbox" name="letters">
-            <span class="slider round"></span>
-          </label>
-        </li>
-        <li class="form-switch">
           <h2 for="capitals">User Capitals</h2>
           <label class="switch">
-            <input type="checkbox" name="capitals">
+            <input id="switch-capitals" type="checkbox" name="capitals">
             <span class="slider round"></span>
           </label>
         </li>
         <li class="form-switch">
-          <h2 for="capitals">User Numbers</h2>
+          <h2 for="numbers">User Numbers</h2>
           <label class="switch">
-            <input type="checkbox" name="numbers">
+            <input id="switch-numbers" type="checkbox" name="numbers">
             <span class="slider round"></span>
           </label>
         </li>
         <li class="form-switch">
-          <h2 for="capitals">User special characters</h2>
+          <h2 for="special-characters">User special characters</h2>
           <label class="switch">
-            <input type="checkbox" name="special-characters">
+            <input id="switch-special-characters" type="checkbox" name="special-characters">
             <span class="slider round"></span>
           </label>
         </li>
       </ul>
       <div class="form-actions">
-        <button type="submit">GENERATE</button>
-        <button type="submit">COPY</button>
+        <button type="button" onclick="handleClickGenerateBtn()">GENERATE</button>
+        <button type="button" onclick="handleClickCopyBtn()">COPY</button>
       </div>
     </form>
   </section>
@@ -73,6 +66,7 @@
   <script src="../assets/js/particles.js"></script>
   <script src="../assets/js/theme.js"></script>
   <script src="../assets/js/include-html.js"></script>
+  <script src="./password-generator.js"></script>
   <script src="./scripts.js"></script>
 </body>
 

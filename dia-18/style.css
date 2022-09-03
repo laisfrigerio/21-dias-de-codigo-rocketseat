@@ -1,3 +1,21 @@
+.theme-dark {
+  --card-border: var(--gray-700);
+  --card-box-shadow: 0 0 10px 1px rgba(0, 0, 0, .25);
+  --card-text: var(--gray-200);
+  --card-input-disabled: var(--gray-700);
+  --card-input-border: var(--gray-600);
+  --card-switch-disabled: var(--gray-600);
+}
+
+.theme-light {
+  --card-border: var(--gray-200);
+  --card-box-shadow: 0 0 10px 1px rgba(131, 131, 131, .25);
+  --card-text: var(--gray-350); 
+  --card-input-disabled: var(--gray-200);
+  --card-input-border: var(--card-border);
+  --card-switch-disabled: var(--gray-200);
+}
+
 body,
 .password-generator,
 .form-input,
@@ -8,20 +26,23 @@ body,
 
 .password-generator {
   background-color: var(--background);
-  border: 1px solid var(--gray-700);
+  border: 1px solid var(--card-border);
   border-radius: 10px;
-  box-shadow: 0 0 10px 1px rgba(0, 0, 0, .25);
+  box-shadow: var(--card-box-shadow);
   margin-bottom: 72px;
   width: 400px;
 }
 
-.password-generator h1,
+.password-generator h1 {
+  padding: 16px 0;
+}
+
 .password-generator form {
-  padding: 16px;
+  padding: 24px;
 }
 
 .password-generator h1 {
-  border-bottom: 1px solid var(--gray-700);
+  border-bottom: 1px solid var(--card-border);
   color: var(--green-500);
   text-align: center;
 }
@@ -32,17 +53,15 @@ body,
 }
 
 .form-input label {
-  color: var(--gray-200);
+  color: var(--card-text);
   margin-bottom: 4px;
 }
 
 .form-input input {
+  background-color: var(--card-input-disabled);
   border-radius: 10px;
+  color: var(--card-text);
   padding: 8px;
-}
-
-.form-input input:disabled {
-  background-color: var(--gray-700);
 }
 
 .form-actions {
@@ -75,7 +94,7 @@ body,
 
 .form-switch {
   align-items: center;
-  border-bottom: 1px solid var(--gray-700);
+  border-bottom: 1px solid var(--card-border);
   display: flex;
   justify-content: space-between;
   margin-bottom: 8px;
@@ -83,7 +102,7 @@ body,
 }
 
 .form-switch h2 {
-  color: var(--gray-200);
+  color: var(--card-text);
   font-size: 18px;
 }
 
@@ -107,7 +126,7 @@ body,
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: var(--gray-600);
+  background-color: var(--card-switch-disabled);
   -webkit-transition: .4s;
   transition: .4s;
 }

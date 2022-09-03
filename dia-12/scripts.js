@@ -10,7 +10,6 @@ cardImg.forEach((item, _) => {
     const imgSrc = img.getAttribute('src')
     modalImg.setAttribute('src', imgSrc)
     body.classList.add('modal-open')
-    console.log('clicked')
   })
 })
 
