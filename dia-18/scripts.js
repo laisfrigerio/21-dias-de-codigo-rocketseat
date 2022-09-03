@@ -1,6 +1,5 @@
 function handleClickGenerateBtn() {
   const switchNumbers = document.querySelector('#switch-numbers')
-  const switchLetters = document.querySelector('#switch-letters')
   const switchCapitals = document.querySelector('#switch-capitals')
   const switchSpecialCharacters = document.querySelector('#switch-special-characters')
 
@@ -15,6 +14,11 @@ function handleClickGenerateBtn() {
   })
 
   document.querySelector('#input-password').value = password
+}
+
+function handleClickCopyBtn() {
+  const password = document.querySelector('#input-password').value
+  window.navigator.clipboard.writeText(password)
 }
 
 window.onload = function () {
