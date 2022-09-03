@@ -32,7 +32,7 @@ const buildAvailableRules = (rules) => {
 const buildAvailableChars = (rules) => {
   return rules.reduce((accumulator, currentRule) => {
     const [currentCharacters] = GetRuleConfiguration(currentRule)
-    return currentCharacters ? accumulator + currentCharacters : accumulator
+    return accumulator + currentCharacters
   }, LOWER_LETTERS)
 }
 
