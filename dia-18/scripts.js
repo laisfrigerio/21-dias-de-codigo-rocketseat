@@ -1,3 +1,5 @@
+const toggleAlert = (alert) => alert.classList.toggle('show')
+
 function handleClickGenerateBtn() {
   const switchNumbers = document.querySelector('#switch-numbers')
   const switchCapitals = document.querySelector('#switch-capitals')
@@ -18,13 +20,14 @@ function handleClickGenerateBtn() {
 }
 
 function handleClickCopyBtn() {
-  const alert = document.querySelector('.alert')
   const password = document.querySelector('#input-password').value
   window.navigator.clipboard.writeText(password)
-  alert.classList.toggle('show')
+
+  const alert = document.querySelector('.alert')
+  toggleAlert(alert)
 
   setTimeout(() => {
-    alert.classList.toggle('show')
+    toggleAlert(alert)
   }, 5000)
 }
 
