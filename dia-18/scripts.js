@@ -7,12 +7,13 @@ function handleClickGenerateBtn() {
   const checkedCapitals = switchCapitals.checked
   const checkedSpecialCharacters = switchSpecialCharacters.checked
 
-  const password = generator({
-    hasNumbers: checkedNumbers,
-    hasCapitalLetters: checkedCapitals,
-    hasSpecialCharacters: checkedSpecialCharacters
-  })
+  const rules = [
+    ...[checkedNumbers && 'hasNumbers'],
+    ...[checkedCapitals && 'hasCapitalLetters'],
+    ...[checkedSpecialCharacters && 'hasSpecialCharacters']
+  ]
 
+  const password = generator(rules)
   document.querySelector('#input-password').value = password
 }
 

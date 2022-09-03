@@ -4,7 +4,7 @@ const {
   passwordHasLowerLetters,
   passwordHasCapitalLetters,
   passwordHasSpecialCharacters
-} = require('../dia-18/gen')
+} = require('../dia-18/password-generator')
 
 function passwordHasNumbersAndLowerLetters(str) {
   return passwordHasNumbers(str) && passwordHasLowerLetters(str)

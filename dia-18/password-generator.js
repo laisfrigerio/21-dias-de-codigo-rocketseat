@@ -3,76 +3,67 @@ const CAPITAL_LETTERS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 const LOWER_LETTERS = 'abcdefghijklmnopqrstuvwxyz'
 const SPECIAL_CHARACTERS = '!"@#$%&*()_+=-{}[]´^~/;.,<>?:'
 
-function passwordHasNumbers(str) {
-  return /[\d]/.test(str)
+const passwordHasNumbers = (str) => /[\d]/.test(str)
+
+const passwordHasLowerLetters = (str) => /[a-z]/.test(str)
+
+const passwordHasCapitalLetters = (str) => /[A-Z]/.test(str)
+
+const passwordHasSpecialCharacters = (str) => /[!"@#$%&*\(\)_+=-{}\[\]´\^~\/;\.,<>?:]/.test(str)
+
+const rulesConfiguration = {
+  'hasNumbers': [NUMBERS, passwordHasNumbers],
+  'hasLowerLetters': [LOWER_LETTERS, passwordHasLowerLetters],
+  'hasCapitalLetters': [CAPITAL_LETTERS, passwordHasCapitalLetters],
+  'hasSpecialCharacters': [SPECIAL_CHARACTERS, passwordHasSpecialCharacters]
 }
 
-function passwordHasLowerLetters(str) {
-  return /[a-z]/.test(str)
+const IterateArray = (limit) => Array.from(Array(limit))
+const GetRuleConfiguration = (index) => rulesConfiguration[index] || []
+
+const RulesConfigurationKeys = Object.keys(rulesConfiguration)
+const RemoveInvalidRules = (rules) => rules.filter((rule) => RulesConfigurationKeys.includes(rule))
+
+const buildAvailableRules = (rules) => {
+  const build = rules || []
+  return RemoveInvalidRules([...build, 'hasLowerLetters'])
 }
 
-function passwordHasCapitalLetters(str) {
-  return /[A-Z]/.test(str)
-}
-
-function passwordHasSpecialCharacters(str) {
-  return /[!"@#$%&*\(\)_+=-{}\[\]´\^~\/;\.,<>?:]/.test(str)
-}
-
-function valid(props) {
-  const { password, hasNumbers, hasCapitalLetters, hasSpecialCharacters } = props
-
-  if (hasNumbers && !passwordHasNumbers(password)) {
-    return false
-  }
-
-  if (!passwordHasLowerLetters(password)) {
-    return false
-  }
-
-  if (hasCapitalLetters && !passwordHasCapitalLetters(password)) {
-    return false
-  }
-
-  if (hasSpecialCharacters && !passwordHasSpecialCharacters(password)) {
-    return false
-  }
-
-  return true
-}
-
-function generator(props) {
-  const { hasNumbers, hasCapitalLetters, hasSpecialCharacters } = props
-
+const buildAvailableChars = (rules) => {
   let characters = LOWER_LETTERS
-  let password = ''
 
-  if (hasNumbers) {
-    characters += NUMBERS
+  if (!Array.isArray(rules)) {
+    return characters
   }
 
-  if (hasCapitalLetters) {
-    characters += CAPITAL_LETTERS
-  }
+  return rules.reduce((accumulator, currentRule) => {
+    const [currentCharacters] = GetRuleConfiguration(currentRule)
+    return currentCharacters ? accumulator + currentCharacters : accumulator
+  }, characters)
+}
 
-  if (hasSpecialCharacters) {
-    characters += SPECIAL_CHARACTERS
-  }
+const valid = (rules, password) => {
+  return rules.every((currentRule) => {
+    const [_, fn] = GetRuleConfiguration(currentRule)
+    return fn(password)
+  })
+}
 
-  if (characters.length === 0) {
-    return ''
-  }
-
-  for (let i = 0; i < 16; i++) {
+const generatePassword = (availableRules, characters) => {
+  const password = IterateArray(16).reduce((accumulator, _) => {
     const randomIndex = Math.floor(Math.random() * characters.length)
-    password += characters[randomIndex]
-  }
+    return accumulator + characters[randomIndex]
+  }, '')
 
-  if (valid({ ...props, password })) {
-    return password
-  }
+  return valid(availableRules, password)
+    ? password
+    : generatePassword(availableRules, characters)
+}
 
-  return generator(props)
+const generator = (rules) => {
+  const availableRules = buildAvailableRules(rules)
+  const characters = buildAvailableChars(availableRules)
+  return generatePassword(availableRules, characters)
 }
 
 if (typeof window === 'undefined') {
