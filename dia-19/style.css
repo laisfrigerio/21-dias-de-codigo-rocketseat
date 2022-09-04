@@ -1,0 +1,18 @@
+body {
+  flex-direction: column;
+}
+
+.glassmorphism-card {
+  margin-bottom: 48px;
+}
+
+.avatar {
+  object-fit: cover;
+  transition: height .6s linear,
+  width .6s linear;
+}
+
+.avatar:hover {
+  height: 150px;
+  width: 150px;
+}
