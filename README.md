@@ -159,3 +159,12 @@ Inspirada no efeito de pulso da logo do Skype, eu criei uma versão utilizando a
   <a><img src="./dia-18/dia-18-screenshot.png" alt="Gerador de senha" title="Gerador de senha"></a>
 </p>
 
+## Dia 19: Listando imagens de uma API pública | Random Dog Image
+
+<p align="center">
+  <a><img src="./dia-19/dia-19-screenshot-dark-mode.png" alt="Dog Profile Card - Theme Dark" title="Dog Profile Card - Theme Dark"></a>
+</p>
+
+<p align="center">
+  <a><img src="./dia-19/dia-19-screenshot-light-mode.png" alt="Dog Profile Card - Theme Light" title="Dog Profile Card - Theme Light"></a>
+</p>
