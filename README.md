@@ -18,7 +18,8 @@
 - [x] Dia 16: Consumindo uma API pública
 - [x] Dia 17: Captirando eventos do teclado
 - [x] Dia 18: Gerador de senha
-- [] Dia 18: ...
+- [x] Dia 19: Listando imagens de uma API pública | Random Dog Image
+- [ ] Dia 20: ...
 
 
 ## Dia 02: "Hello World" com efeito de digitação
