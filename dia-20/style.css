@@ -1,0 +1,53 @@
+.theme-dark {
+  --emoji-border: 1px solid rgba(255, 255, 255, .25);
+}
+
+.theme-light {
+  --emoji-border: 1px solid rgba(91, 91, 91, .25);
+}
+
+body {
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 18px;
+}
+
+.glassmorphism-card {
+  height: 280px;
+  margin-bottom: 48px;
+  width: 346px;
+}
+
+#emojis {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 15px 40px;
+  z-index: 99999999999;
+}
+
+#emojis.hidden {
+  display: none;
+}
+
+.emoji {
+  align-items: center;
+  background-color: transparent;
+  border: var(--emoji-border);
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  height: 34px;
+  margin: 5px;
+  padding: 5px;
+  transition: filter .6s;
+  width: 34px;
+}
+
+.emoji:active,
+.emoji:hover{
+  filter: brightness(0.7);
+}
