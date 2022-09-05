@@ -19,7 +19,8 @@
 - [x] Dia 17: Captirando eventos do teclado
 - [x] Dia 18: Gerador de senha
 - [x] Dia 19: Listando imagens de uma API pública | Random Dog Image
-- [ ] Dia 20: ...
+- [x] Dia 20: Copy Emoji to Clipboard
+- [ ] Dia 21: ...
 
 
 ## Dia 02: "Hello World" com efeito de digitação
@@ -167,4 +168,14 @@ Inspirada no efeito de pulso da logo do Skype, eu criei uma versão utilizando a
 
 <p align="center">
   <a><img src="./dia-19/dia-19-screenshot-light-mode.png" alt="Dog Profile Card - Theme Light" title="Dog Profile Card - Theme Light"></a>
+</p>
+
+## Dia 20: Copy Emoji to Clipbpard
+
+<p align="center">
+  <a><img src="./assets/images/gallery/dia-20-dark-mode.png" alt="Copy Emoji To Clipboard - Theme Dark" title="Copy Emoji To Clipboard - Theme Dark"></a>
+</p>
+
+<p align="center">
+  <a><img src="./assets/images/gallery/dia-20-light-mode.png" alt="Copy Emoji To Clipboard - Theme Light" title="Copy Emoji To Clipboard - Theme Light"></a>
 </p>
